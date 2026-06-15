@@ -1,26 +1,222 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   Cine Kurd — Luxury cinematic design system
+   ============================================================ */
+
+@theme {
+  /* Palette: deep cinematic ink + champagne gold */
+  --color-ink: #08080a;
+  --color-charcoal: #0e0e12;
+  --color-surface: #15151b;
+  --color-surface-2: #1c1c24;
+  --color-line: #2a2a34;
+
+  --color-gold: #c9a24b;
+  --color-gold-light: #ecd08a;
+  --color-gold-dark: #93702a;
+
+  --color-cream: #f5f2ea;
+  --color-muted: #9b9ba6;
+  --color-muted-dark: #6b6b76;
+
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.75rem;
+
+  --shadow-gold: 0 18px 60px -24px rgba(201, 162, 75, 0.45);
 }
 
+/* Font tokens are bound to the next/font CSS variables at use-site. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-arabic: var(--font-vazir), ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Arabic + Kurdish Sorani use the Arabic-script face throughout. */
+[dir="rtl"] body,
+:lang(ar),
+:lang(ckb) {
+  font-family: var(--font-vazir), ui-sans-serif, system-ui, sans-serif;
+}
+[dir="rtl"] .font-display {
+  font-family: var(--font-vazir), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+}
+
+::selection {
+  background: rgba(201, 162, 75, 0.3);
+  color: var(--color-cream);
+}
+
+/* Keyboard focus ring (mouse clicks stay clean) */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skip-to-content link — appears on keyboard focus */
+.skip-link {
+  position: fixed;
+  inset-inline-start: 0;
+  top: 0;
+  z-index: 100;
+  transform: translateY(-130%);
+  background: var(--color-gold);
+  color: var(--color-ink);
+  padding: 0.6rem 1rem;
+  border-end-end-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* Refined scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: #2c2c36;
+  border-radius: 999px;
+  border: 2px solid var(--color-ink);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-dark);
+}
+
+/* ---------- Reusable luxe utilities ---------- */
+
+.text-gold-gradient {
+  background: linear-gradient(
+    180deg,
+    var(--color-gold-light),
+    var(--color-gold) 55%,
+    var(--color-gold-dark)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass {
+  background: color-mix(in oklab, var(--color-charcoal) 72%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+}
+
+.hairline {
+  border: 1px solid color-mix(in oklab, var(--color-cream) 9%, transparent);
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold) 50%,
+    transparent
+  );
+}
+
+/* Ambient cinematic background glow */
+.bg-aurora {
+  background-color: var(--color-ink);
+  background-image:
+    radial-gradient(60% 50% at 50% -5%, rgba(201, 162, 75, 0.14), transparent 70%),
+    radial-gradient(45% 40% at 100% 8%, rgba(201, 162, 75, 0.07), transparent 70%),
+    radial-gradient(45% 45% at 0% 30%, rgba(201, 162, 75, 0.05), transparent 70%);
+}
+
+/* Subtle grain to avoid flat banding on dark gradients */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Entrance animations */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-rise {
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade {
+  animation: fade-in 1.1s ease both;
+}
+
+/* Startup splash — logo reveal */
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: scale(0.86);
+    filter: blur(10px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.015);
+  }
+}
+.animate-intro {
+  animation: intro 1.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-fade,
+  .animate-intro {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }

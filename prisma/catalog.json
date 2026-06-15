@@ -1,0 +1,2767 @@
+{
+  "brands": [
+    {
+      "slug": "arri",
+      "name": "ARRI",
+      "country": "Germany",
+      "foundedYear": 1917,
+      "categories": [
+        "camera",
+        "lens",
+        "light",
+        "accessories"
+      ],
+      "description": {
+        "en": "The benchmark of motion-picture craft, ARRI builds the Alexa digital cinema cameras, Signature optics and lighting fixtures trusted on the world's most demanding film sets.",
+        "ar": "المعيار الأسمى لصناعة السينما، تصنع آري كاميرات أليكسا السينمائية الرقمية وعدسات سيغنتشر ووحدات الإضاءة التي تعتمد عليها أكثر مواقع التصوير تطلبًا في العالم.",
+        "ckb": "پێوەری بەرزی پیشەی سینەما، ئاری کامێرای دیجیتاڵی ئەلێکسا و لێنزی سیگنەچەر و ئامێری ڕووناکی دروستدەکات کە لە سەختترین شوێنەکانی فیلمسازیی جیهاندا پشتیان پێ دەبەسترێت."
+      }
+    },
+    {
+      "slug": "red-digital-cinema",
+      "name": "RED Digital Cinema",
+      "country": "United States",
+      "foundedYear": 2005,
+      "categories": [
+        "camera",
+        "accessories"
+      ],
+      "description": {
+        "en": "A pioneer of high-resolution digital cinematography, RED designs the modular Komodo and V-Raptor camera systems prized for their stunning detail and color science.",
+        "ar": "من رواد التصوير السينمائي الرقمي عالي الدقة، تصمم ريد أنظمة كاميرات كومودو وفي-رابتور المعيارية المرموقة بتفاصيلها المذهلة وعلم الألوان لديها.",
+        "ckb": "پێشەنگی وێنەگرتنی سینەماییی دیجیتاڵیی وردیی بەرز، ڕێد سیستەمی مۆدیوڵاریی کامێرای کۆمۆدۆ و ڤی-ڕاپتۆر دیزاین دەکات کە بە وردەکارییە سەرسوڕهێنەرەکانیان و زانستی ڕەنگیان بەنرخن."
+      }
+    },
+    {
+      "slug": "blackmagic-design",
+      "name": "Blackmagic Design",
+      "country": "Australia",
+      "foundedYear": 2001,
+      "categories": [
+        "camera",
+        "accessories"
+      ],
+      "description": {
+        "en": "Blackmagic Design democratised high-end production with its URSA and Pocket Cinema cameras, broadcast monitors and the DaVinci Resolve ecosystem.",
+        "ar": "جعلت بلاك ماجيك ديزاين الإنتاج الاحترافي في متناول الجميع عبر كاميرات أورسا وبوكيت سينما وشاشات البث ومنظومة دافنشي ريزولف.",
+        "ckb": "بلاکماجیک دیزاین بەرهەمهێنانی ئاستبەرزی بۆ هەمووان دەستڕاگەیشتوو کرد بە کامێرای ئورسا و پۆکێت سینەما و مۆنیتۆری پەخش و سیستەمی داڤینچی ریزۆڵڤ."
+      }
+    },
+    {
+      "slug": "sony",
+      "name": "Sony",
+      "country": "Japan",
+      "foundedYear": 1946,
+      "categories": [
+        "camera",
+        "lens",
+        "accessories"
+      ],
+      "description": {
+        "en": "Sony's CineAlta line, including the Venice and FX cameras alongside its G Master optics, sets a global standard for full-frame digital cinematography.",
+        "ar": "تضع سلسلة سينيألتا من سوني، بما فيها كاميرات فينيس وإف إكس إلى جانب عدسات جي ماستر، معيارًا عالميًا للتصوير السينمائي الرقمي بكامل الإطار.",
+        "ckb": "زنجیرەی سینیئاڵتای سۆنی، لەوانە کامێرای ڤینیس و ئێف ئێکس لەگەڵ لێنزی جی ماستەر، پێوەرێکی جیهانیی بۆ وێنەگرتنی سینەماییی دیجیتاڵیی فوڵ-فرەیم دادەنێت."
+      }
+    },
+    {
+      "slug": "canon",
+      "name": "Canon",
+      "country": "Japan",
+      "foundedYear": 1937,
+      "categories": [
+        "camera",
+        "lens",
+        "accessories"
+      ],
+      "description": {
+        "en": "Canon pairs its Cinema EOS camera bodies with the renowned CN-E and Sumire prime lenses, delivering signature skin tones and refined optical character.",
+        "ar": "تجمع كانون بين هياكل كاميرات سينما إي أو إس وعدساتها الثابتة الشهيرة سي إن-إي وسوميري، لتقدم درجات بشرة مميزة وطابعًا بصريًا راقيًا.",
+        "ckb": "کانۆن لاشەی کامێرای سینەما ئی ئۆ ئێس لەگەڵ لێنزە ناودارەکانی سی ئێن-ئی و سومیرە کۆدەکاتەوە، و ڕەنگی پێستی تایبەت و کارەکتەرێکی ئۆپتیکیی ڕێکوپێک پێشکەش دەکات."
+      }
+    },
+    {
+      "slug": "panavision",
+      "name": "Panavision",
+      "country": "United States",
+      "foundedYear": 1954,
+      "categories": [
+        "camera",
+        "lens",
+        "accessories"
+      ],
+      "description": {
+        "en": "A legend of Hollywood optics, Panavision crafts the Millennium DXL cameras and coveted anamorphic lens series that have defined the cinematic widescreen look.",
+        "ar": "أسطورة في عالم العدسات الهوليوودية، تصنع بانافيجن كاميرات ميلينيوم دي إكس إل وسلاسل العدسات الأنامورفية المرغوبة التي رسمت ملامح المظهر السينمائي العريض.",
+        "ckb": "ئەفسانەیەکی ئۆپتیکی هۆلیووود، پاناڤیژن کامێرای میلینیۆم دی ئێکس ئێل و زنجیرە لێنزە ئانامۆرفیکە بەهاکان دروستدەکات کە دیمەنی پانی سینەماییان پێناسە کردووە."
+      }
+    },
+    {
+      "slug": "cooke-optics",
+      "name": "Cooke Optics",
+      "country": "United Kingdom",
+      "foundedYear": 1894,
+      "categories": [
+        "lens"
+      ],
+      "description": {
+        "en": "Cooke Optics is celebrated for the warm, flattering rendering known as the \"Cooke Look\", crafting prized S4/i, Panchro and anamorphic cinema primes.",
+        "ar": "تشتهر كوك أوبتكس بطابعها الدافئ الجميل المعروف بـ«مظهر كوك»، إذ تصنع عدسات السينما الثابتة المرموقة إس فور/آي وبانكرو والأنامورفية.",
+        "ckb": "کووک ئۆپتیکس بە دەرخستنی گەرم و جوانی ناسراو بە «دیمەنی کووک» بەناوبانگە، و لێنزی سینەماییی بەنرخی ئێس٤/ئای و پانکرۆ و ئانامۆرفیک دروستدەکات."
+      }
+    },
+    {
+      "slug": "zeiss",
+      "name": "ZEISS",
+      "country": "Germany",
+      "foundedYear": 1846,
+      "categories": [
+        "lens"
+      ],
+      "description": {
+        "en": "ZEISS brings a century of precision optics to cinema with the Supreme Prime, Master Prime and CP series, prized for clarity, contrast and flawless engineering.",
+        "ar": "تجلب زايس قرنًا من دقة البصريات إلى السينما عبر سلاسل سوبريم برايم وماستر برايم وسي بي، المرموقة بصفائها وتباينها وهندستها البديعة.",
+        "ckb": "زایس سەدەیەک لە ئۆپتیکی ووردی بۆ سینەما دەهێنێت بە زنجیرەی سوپریم پرایم و ماستەر پرایم و سی پی، کە بە ڕوونی و جیاوازی و ئەندازیارییە بێکەموکوڕەکەیان بەنرخن."
+      }
+    },
+    {
+      "slug": "angenieux",
+      "name": "Angénieux",
+      "country": "France",
+      "foundedYear": 1935,
+      "categories": [
+        "lens"
+      ],
+      "description": {
+        "en": "Angénieux is the gold standard of cinema zoom lenses, whose Optimo and EZ series are favoured for their seamless focal range and rich, organic image.",
+        "ar": "أنجينو هي المعيار الذهبي لعدسات الزوم السينمائية، إذ تُفضَّل سلسلتا أوبتيمو وإي زد لمداهما البؤري السلس وصورتهما الغنية الطبيعية.",
+        "ckb": "ئانژێنیۆ پێوەری زێڕینی لێنزی زوومی سینەمایە، کە زنجیرەی ئۆپتیمۆ و ئی زێد بە مەودای فۆکاسیی ڕێکوپێک و وێنە دەوڵەمەند و سروشتییەکەیان پەسەندکراون."
+      }
+    },
+    {
+      "slug": "sigma",
+      "name": "Sigma",
+      "country": "Japan",
+      "foundedYear": 1961,
+      "categories": [
+        "lens",
+        "camera"
+      ],
+      "description": {
+        "en": "Sigma's Cine line, headlined by the High Speed and FF Classic primes, offers strikingly sharp, affordable optics that have become a filmmaker favourite.",
+        "ar": "تقدم سلسلة سيغما السينمائية، وعلى رأسها عدسات هاي سبيد وإف إف كلاسيك الثابتة، بصريات حادة ميسورة التكلفة باتت المفضّلة لدى صنّاع الأفلام.",
+        "ckb": "زنجیرەی سینەی سیگما، کە لێنزی های سپید و ئێف ئێف کلاسیک پێشەنگیان، ئۆپتیکی تیژ و گونجاو بە نرخ پێشکەش دەکات کە بووەتە بەدڵی فیلمسازان."
+      }
+    },
+    {
+      "slug": "aputure",
+      "name": "Aputure",
+      "country": "China",
+      "foundedYear": 2005,
+      "categories": [
+        "light",
+        "accessories"
+      ],
+      "description": {
+        "en": "Aputure reshaped affordable cinema lighting with its powerful LS-series COB lights, Nova RGB panels and the versatile Light Dome modifiers.",
+        "ar": "أعادت أبتشر تشكيل إضاءة السينما الميسورة عبر مصابيح سلسلة إل إس القوية بتقنية كوب ولوحات نوفا آر جي بي وموزّعات لايت دوم المتعددة الاستخدامات.",
+        "ckb": "ئاپوچەر ڕووناکیی سینەماییی گونجاو بە نرخی نوێ کردەوە بە چرای بەهێزی زنجیرەی ئێل ئێس بە تەکنەلۆژیای کۆب و پانێڵی نۆڤا ئاڕ جی بی و گۆڕەری فرەکارهێنی لایت دۆم."
+      }
+    },
+    {
+      "slug": "nanlux",
+      "name": "Nanlux",
+      "country": "China",
+      "foundedYear": 2021,
+      "categories": [
+        "light",
+        "accessories"
+      ],
+      "description": {
+        "en": "Nanlux delivers high-output cinema fixtures such as the Evoke and Dyno series, engineered for big-set power, precise color and weatherproof reliability.",
+        "ar": "تقدم نانلوكس وحدات إضاءة سينمائية عالية الإخراج كسلسلتي إيفوك ودينو، مصمّمة لقوة المواقع الكبيرة ودقة الألوان والمتانة المقاومة للطقس.",
+        "ckb": "نانلەکس ئامێری ڕووناکیی سینەماییی دەرهاتی بەرز پێشکەش دەکات وەک زنجیرەی ئیڤۆک و داینۆ، کە بۆ هێزی شوێنە گەورەکان و ووردیی ڕەنگ و متمانەی بەرگری لە کەشوهەوا دیزاین کراون."
+      }
+    },
+    {
+      "slug": "kino-flo",
+      "name": "Kino Flo",
+      "country": "United States",
+      "foundedYear": 1987,
+      "categories": [
+        "light"
+      ],
+      "description": {
+        "en": "Kino Flo pioneered soft, flicker-free cinema lighting and continues to define gentle, true-color illumination with its Celeb and Diva-Lite LED systems.",
+        "ar": "ابتكرت كينو فلو الإضاءة السينمائية الناعمة الخالية من الوميض، وما زالت ترسم معايير الإضاءة الرقيقة صادقة الألوان عبر أنظمة سيليب وديفا-لايت بتقنية الليد.",
+        "ckb": "کینۆ فلۆ ڕووناکیی سینەماییی نەرم و بێ لەرزینی داهێنا و هێشتا ڕووناکیی نەرم و ڕەنگ-ڕاستی پێناسە دەکات بە سیستەمی ئێل ئی دیی سێلێب و دیڤا-لایت."
+      }
+    },
+    {
+      "slug": "dji",
+      "name": "DJI",
+      "country": "China",
+      "foundedYear": 2006,
+      "categories": [
+        "camera",
+        "accessories"
+      ],
+      "description": {
+        "en": "DJI revolutionised motion with its Ronin gimbals and Inspire aerial cinema platforms, giving filmmakers fluid, stabilised movement on the ground and in the air.",
+        "ar": "أحدثت دي جي آي ثورة في الحركة عبر مثبّتات رونين ومنصّات إنسباير السينمائية الجوية، مانحةً صنّاع الأفلام حركة سلسة ثابتة على الأرض وفي الجو.",
+        "ckb": "دی جی ئای شۆڕشی لە جووڵەدا کرد بە گیمباڵی ڕۆنین و سەکۆی سینەماییی ئاسمانیی ئینسپایەر، و جووڵەیەکی ڕەوان و جێگیری بۆ فیلمسازان لەسەر زەوی و لە ئاسماندا دابین کرد."
+      }
+    },
+    {
+      "slug": "sachtler",
+      "name": "Sachtler",
+      "country": "Germany",
+      "foundedYear": 1958,
+      "categories": [
+        "accessories"
+      ],
+      "description": {
+        "en": "Sachtler is the trusted name in professional camera support, building the fluid heads, tripods and systems that deliver silky, repeatable camera movement.",
+        "ar": "ساكتلر هي الاسم الموثوق في دعم الكاميرا الاحترافي، إذ تصنع الرؤوس السائلة والحوامل والأنظمة التي تمنح حركة كاميرا حريرية قابلة للتكرار.",
+        "ckb": "ساختلەر ناوی متمانەپێکراوە لە پاڵپشتیی پیشەییی کامێرا، کە سەری شلە و پایە و سیستەمەکان دروستدەکات بۆ جووڵەی نەرم و دووبارەکراوەوەی کامێرا."
+      }
+    },
+    {
+      "slug": "smallrig",
+      "name": "SmallRig",
+      "country": "China",
+      "foundedYear": 2013,
+      "categories": [
+        "accessories"
+      ],
+      "description": {
+        "en": "SmallRig equips productions of every size with cages, matte boxes, follow focus units and rigging components designed for fast, modular on-set builds.",
+        "ar": "تجهّز سمول ريغ الإنتاجات بكل أحجامها بأقفاص وصناديق مات ووحدات فولو فوكس ومكوّنات تركيب مصمّمة لبناءات سريعة ومعيارية في موقع التصوير.",
+        "ckb": "سمۆڵریگ بەرهەمهێنان بە هەموو قەبارەیەکەوە بە قەفەس و مات بۆکس و یەکەی فۆڵۆ فۆکەس و پارچەی ڕیگ دەستڕاگەیشتوو دەکات کە بۆ دروستکردنی خێرا و مۆدیوڵاریی لەسەر شوێن دیزاین کراون."
+      }
+    },
+    {
+      "slug": "teradek",
+      "name": "Teradek",
+      "country": "United States",
+      "foundedYear": 2010,
+      "categories": [
+        "accessories"
+      ],
+      "description": {
+        "en": "Teradek leads wireless video on set, with its Bolt transmitters and RT focus systems delivering zero-delay monitoring and reliable wireless lens control.",
+        "ar": "تتصدّر تيراديك مجال الفيديو اللاسلكي في موقع التصوير، إذ توفّر مرسلات بولت وأنظمة آر تي للفوكس مراقبة بلا تأخير وتحكّمًا لاسلكيًا موثوقًا في العدسة.",
+        "ckb": "تێرادێک پێشەنگی ڤیدیۆی بێ تەلە لەسەر شوێنە، کە گواستەرەوەکانی بۆڵت و سیستەمی فۆکەسی ئاڕ تی چاودێریی بێ دواکەوتن و کۆنترۆڵی بێ تەلەی متمانەپێکراوی لێنز پێشکەش دەکەن."
+      }
+    }
+  ],
+  "products": [
+    {
+      "slug": "arri-alexa-35",
+      "category": "camera",
+      "brandSlug": "arri",
+      "name": {
+        "en": "ALEXA 35",
+        "ar": "أليكسا 35",
+        "ckb": "ئەلێکسا ٣٥"
+      },
+      "description": {
+        "en": "ARRI's flagship Super 35 cinema camera delivering 17 stops of dynamic range and the acclaimed REVEAL Color Science for unmatched cinematic image quality. The benchmark for high-end feature films and premium episodic productions.",
+        "ar": "الكاميرا السينمائية الرائدة من آري بمستشعر سوبر 35، تقدم 17 درجة من المدى الديناميكي وعلم الألوان المتقدم لجودة صورة سينمائية لا تضاهى. المعيار الذهبي للأفلام الروائية الراقية والإنتاجات التلفزيونية المتميزة.",
+        "ckb": "کامێرای سەرەکیی سینەمایی ئاری بە سینسۆری سوپەر ٣٥، کە ١٧ پلەی مەودای داینامیک و زانستی ڕەنگی پێشکەوتوو دەبەخشێت بۆ کوالیتیی وێنەی سینەماییی بێ هاوتا. پێوەری زێڕینی فیلمە گەورەکان و بەرهەمە تەلەفزیۆنییە بەنرخەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Super 35 cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "ARRI ALEV 4 CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "4.6K (4608 x 3164)"
+        },
+        {
+          "label": "Mount",
+          "value": "LPL (PL adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 4.6K"
+        },
+        {
+          "label": "Media",
+          "value": "Codex Compact Drive (1TB/2TB)"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "arri-alexa-mini-lf",
+      "category": "camera",
+      "brandSlug": "arri",
+      "name": {
+        "en": "ALEXA Mini LF",
+        "ar": "أليكسا ميني إل إف",
+        "ckb": "ئەلێکسا مینی ئێڵ ئێف"
+      },
+      "description": {
+        "en": "A compact large-format powerhouse pairing ARRI's full-frame sensor with the legendary Mini body for unmatched versatility on gimbals, drones and handheld rigs. Trusted worldwide for cinematic large-format imaging.",
+        "ar": "قوة كبيرة بحجم مدمج تجمع مستشعر آري كامل الإطار مع هيكل الميني الأسطوري لمرونة فائقة على الجيمبال والطائرات بدون طيار والحوامل اليدوية. موثوقة عالميًا للتصوير السينمائي كبير الإطار.",
+        "ckb": "هێزێکی گەورەی فۆڕماتی فراوان بە جەستەیەکی بچووک، سینسۆری فول-فرەیمی ئاری لەگەڵ جەستەی ناودارەکەی مینی کۆدەکاتەوە بۆ نەرمیی بێ وێنە لەسەر گیمباڵ و دڕۆن و ڕیگی دەستی. لە جیهاندا متمانەپێکراوە بۆ وێنەگرتنی سینەماییی فۆڕمات گەورە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Large-format cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "ARRI ALEV 3 large-format CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "4.5K (4448 x 3096)"
+        },
+        {
+          "label": "Mount",
+          "value": "LPL (PL/EF adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "40 fps at 4.5K LF (90 fps at S35)"
+        },
+        {
+          "label": "Media",
+          "value": "Codex Compact Drive (1TB)"
+        }
+      ],
+      "stock": 3,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2019
+    },
+    {
+      "slug": "red-v-raptor-x",
+      "category": "camera",
+      "brandSlug": "red-digital-cinema",
+      "name": {
+        "en": "V-RAPTOR [X]",
+        "ar": "في-رابتور [إكس]",
+        "ckb": "ڤی-ڕاپتۆر [ئێکس]"
+      },
+      "description": {
+        "en": "RED's most advanced 8K VV cinema camera featuring a global shutter sensor with extended highlight handling and blistering frame rates. Built for demanding high-action and high-resolution productions.",
+        "ar": "أكثر كاميرات ريد تطورًا بدقة 8K بمستشعر فيستا فيجن ومصراع عالمي مع معالجة موسّعة للإضاءات العالية ومعدلات إطارات فائقة السرعة. مصممة للإنتاجات عالية الحركة وعالية الدقة.",
+        "ckb": "پێشکەوتووترین کامێرای سینەمایی ٨K ڤیستا ڤیژنی ڕێد بە سینسۆری شەتەری گلۆباڵ و مامەڵەکردنی فراوان لەگەڵ ڕووناکیی بەرز و ڕێژەی فرەیمی زۆر خێرا. دروستکراوە بۆ بەرهەمە پڕ جووڵە و بەرزرێژەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame VV cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "8K VV global shutter CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "8K (8192 x 4320)"
+        },
+        {
+          "label": "Mount",
+          "value": "RF (PL/Locking EF adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 8K"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress Type B"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "red-komodo-x",
+      "category": "camera",
+      "brandSlug": "red-digital-cinema",
+      "name": {
+        "en": "KOMODO-X",
+        "ar": "كومودو-إكس",
+        "ckb": "کۆمۆدۆ-ئێکس"
+      },
+      "description": {
+        "en": "A compact 6K Super 35 global shutter camera that delivers RED image quality in a remarkably small, rig-friendly body. Ideal for gimbals, drones, automotive and multi-cam setups.",
+        "ar": "كاميرا مدمجة بدقة 6K سوبر 35 ومصراع عالمي تقدم جودة صورة ريد في هيكل صغير بشكل ملحوظ وسهل التركيب. مثالية للجيمبال والطائرات بدون طيار والتصوير على المركبات والتصوير المتعدد.",
+        "ckb": "کامێرایەکی بچووکی ٦K سوپەر ٣٥ بە شەتەری گلۆباڵ کە کوالیتیی وێنەی ڕێد لە جەستەیەکی زۆر بچووک و گونجاو بۆ ڕیگدا دەبەخشێت. باشترینە بۆ گیمباڵ و دڕۆن و ئۆتۆمبیل و سێتی فرە-کامێرا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Super 35 cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "6K S35 global shutter CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "6K (6144 x 3240)"
+        },
+        {
+          "label": "Mount",
+          "value": "RF"
+        },
+        {
+          "label": "Max FPS",
+          "value": "80 fps at 6K"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress Type B"
+        }
+      ],
+      "stock": 5,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "sony-venice-2",
+      "category": "camera",
+      "brandSlug": "sony",
+      "name": {
+        "en": "VENICE 2",
+        "ar": "فينيس 2",
+        "ckb": "ڤێنیس ٢"
+      },
+      "description": {
+        "en": "Sony's premier full-frame cinema camera with a dual-base ISO 8.6K sensor, 16 stops of latitude and the renowned Sony cinematic color. A staple of major motion pictures and high-end streaming series.",
+        "ar": "كاميرا سوني السينمائية الراقية كاملة الإطار بمستشعر 8.6K مزدوج الحساسية و16 درجة مدى وألوان سوني السينمائية الشهيرة. عنصر أساسي في الأفلام الكبرى والمسلسلات الراقية.",
+        "ckb": "کامێرای سینەماییی سەرەکیی سۆنی بە فۆڕماتی فول-فرەیم و سینسۆری ٨.٦K دوو-بنەڕەتی ئایەسئۆ و ١٦ پلە مەودا و ڕەنگی سینەماییی ناوداری سۆنی. بەشێکی سەرەکیی فیلمە گەورەکان و زنجیرە ستریمینگە بەنرخەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "8.6K full-frame dual-base ISO CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "8.6K (8640 x 5760)"
+        },
+        {
+          "label": "Mount",
+          "value": "PL (E-mount interchangeable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "30 fps at 8.6K (90 fps at 4K)"
+        },
+        {
+          "label": "Media",
+          "value": "AXS Memory Card"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "sony-burano",
+      "category": "camera",
+      "brandSlug": "sony",
+      "name": {
+        "en": "BURANO",
+        "ar": "بورانو",
+        "ckb": "بوڕانۆ"
+      },
+      "description": {
+        "en": "A compact 8.6K full-frame digital cinema camera with built-in image stabilization, dual-base ISO and autofocus, bridging the gap between VENICE and the FX line. Engineered for agile single-operator productions.",
+        "ar": "كاميرا سينمائية رقمية مدمجة بدقة 8.6K كاملة الإطار مع تثبيت صورة مدمج وحساسية مزدوجة وتركيز تلقائي، تجسر الفجوة بين فينيس وسلسلة إف إكس. مصممة للإنتاجات الرشيقة بمشغل واحد.",
+        "ckb": "کامێرایەکی سینەماییی دیجیتاڵی بچووک بە ٨.٦K فول-فرەیم لەگەڵ جێگیرکردنی وێنەی ناوەکی و ئایەسئۆی دوو-بنەڕەتی و فۆکەسی ئۆتۆماتیک، پردێکە لەنێوان ڤێنیس و زنجیرەی ئێف ئێکس. دروستکراوە بۆ بەرهەمی چالاکی تاک-کارمەند."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "8.6K full-frame Exmor R CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "8.6K (8640 x 5760)"
+        },
+        {
+          "label": "Mount",
+          "value": "E-mount (PL adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 4K Super 35"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress Type A / SDXC"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2024
+    },
+    {
+      "slug": "sony-fx6",
+      "category": "camera",
+      "brandSlug": "sony",
+      "name": {
+        "en": "FX6",
+        "ar": "إف إكس 6",
+        "ckb": "ئێف ئێکس ٦"
+      },
+      "description": {
+        "en": "A full-frame Cinema Line camera prized for its compact form, fast hybrid autofocus and outstanding low-light performance. The go-to choice for documentary, run-and-gun and solo cinematographers.",
+        "ar": "كاميرا من سلسلة سينما لاين كاملة الإطار تتميز بحجمها المدمج وتركيزها التلقائي الهجين السريع وأدائها المتميز في الإضاءة المنخفضة. الخيار الأمثل للأفلام الوثائقية والتصوير السريع والمصورين المنفردين.",
+        "ckb": "کامێرایەکی فول-فرەیمی زنجیرەی سینەما لاین کە بەهۆی قەبارە بچووک و فۆکەسی ئۆتۆماتیکی هایبریدی خێرا و کارایی نایاب لە ڕووناکیی کەمدا بەنرخە. هەڵبژاردەی سەرەکی بۆ دۆکیۆمێنتاری و وێنەگرتنی خێرا و وێنەگرە تاکەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame Cinema Line camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "10.2MP full-frame Exmor R CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "4K UHD (3840 x 2160)"
+        },
+        {
+          "label": "Mount",
+          "value": "E-mount"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 4K"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress Type A / SDXC"
+        }
+      ],
+      "stock": 8,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2020
+    },
+    {
+      "slug": "blackmagic-ursa-cine-12k",
+      "category": "camera",
+      "brandSlug": "blackmagic-design",
+      "name": {
+        "en": "URSA Cine 12K LF",
+        "ar": "أورسا سيني 12K إل إف",
+        "ckb": "ئوڕسا سینی ١٢K ئێڵ ئێف"
+      },
+      "description": {
+        "en": "Blackmagic's flagship large-format camera featuring a 12K RGBW sensor, 16 stops of dynamic range and an integrated high-capacity media system. Built for the most ambitious large-format productions.",
+        "ar": "الكاميرا الرائدة كبيرة الإطار من بلاك ماجيك بمستشعر 12K آر جي بي دبليو و16 درجة مدى ديناميكي ونظام وسائط مدمج عالي السعة. مصممة لأكثر الإنتاجات طموحًا كبيرة الإطار.",
+        "ckb": "کامێرای سەرەکیی فۆڕمات گەورەی بلاکماجیک بە سینسۆری ١٢K ئاڕ جی بی دەبڵیو و ١٦ پلە مەودای داینامیک و سیستەمی میدیای ناوەکیی توانا بەرز. دروستکراوە بۆ گەورەترین بەرهەمە بەرزخواز و فۆڕمات گەورەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Large-format cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "35.64MP 12K RGBW CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "12K (12288 x 8040)"
+        },
+        {
+          "label": "Mount",
+          "value": "PL (LPL/EF interchangeable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 8K"
+        },
+        {
+          "label": "Media",
+          "value": "Cine Media Module 8TB"
+        }
+      ],
+      "stock": 3,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2024
+    },
+    {
+      "slug": "blackmagic-pyxis-6k",
+      "category": "camera",
+      "brandSlug": "blackmagic-design",
+      "name": {
+        "en": "PYXIS 6K",
+        "ar": "بيكسيس 6K",
+        "ckb": "پیکسیس ٦K"
+      },
+      "description": {
+        "en": "A box-style full-frame digital film camera with a 6K sensor, extensive mounting points and triple recording media. Designed to be the flexible core of any custom cinema rig.",
+        "ar": "كاميرا أفلام رقمية كاملة الإطار بتصميم صندوقي ومستشعر 6K ونقاط تركيب واسعة ووسائط تسجيل ثلاثية. مصممة لتكون النواة المرنة لأي حامل سينمائي مخصص.",
+        "ckb": "کامێرایەکی فیلمی دیجیتاڵی فول-فرەیم بە شێوازی سندوقی و سینسۆری ٦K و خاڵی مۆنتکردنی زۆر و سێ جۆر میدیای تۆمارکردن. دیزاینکراوە بۆ ئەوەی ناوکی نەرمی هەر ڕیگێکی سینەماییی تایبەت بێت."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame box cinema camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "24.0MP 6K full-frame CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "6K (6048 x 4032)"
+        },
+        {
+          "label": "Mount",
+          "value": "L-mount (PL/EF/RF optional)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "66 fps at 6K open gate"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress / USB-C SSD"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2024
+    },
+    {
+      "slug": "canon-eos-c400",
+      "category": "camera",
+      "brandSlug": "canon",
+      "name": {
+        "en": "EOS C400",
+        "ar": "إيوس سي 400",
+        "ckb": "ئیۆس سی ٤٠٠"
+      },
+      "description": {
+        "en": "Canon's full-frame Cinema EOS camera with a back-illuminated stacked sensor, triple-base ISO and reliable Dual Pixel autofocus. A versatile workhorse for broadcast, documentary and narrative work.",
+        "ar": "كاميرا سينما إيوس كاملة الإطار من كانون بمستشعر مكدّس بإضاءة خلفية وحساسية ثلاثية القاعدة وتركيز تلقائي ثنائي البكسل موثوق. أداة متعددة الاستخدامات للبث والأفلام الوثائقية والروائية.",
+        "ckb": "کامێرای سینەما ئیۆسی فول-فرەیمی کانۆن بە سینسۆری چینکراوی ڕووناکیی پشتەوە و ئایەسئۆی سێ-بنەڕەتی و فۆکەسی ئۆتۆماتیکی دوو-پیکسڵی متمانەپێکراو. ئامرازێکی فرە-کاری بۆ بڵاوکردنەوە و دۆکیۆمێنتاری و کاری چیرۆکی."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Full-frame Cinema EOS camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "6K full-frame BSI stacked CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "6K (6000 x 3164)"
+        },
+        {
+          "label": "Mount",
+          "value": "RF (EF adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 4K"
+        },
+        {
+          "label": "Media",
+          "value": "CFexpress Type B / SDXC"
+        }
+      ],
+      "stock": 7,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2024
+    },
+    {
+      "slug": "canon-eos-c70",
+      "category": "camera",
+      "brandSlug": "canon",
+      "name": {
+        "en": "EOS C70",
+        "ar": "إيوس سي 70",
+        "ckb": "ئیۆس سی ٧٠"
+      },
+      "description": {
+        "en": "A compact Super 35 Cinema EOS camera in an ergonomic DSLR-style body with the DGO sensor for wide dynamic range. Perfect for solo shooters and tight-space productions.",
+        "ar": "كاميرا سينما إيوس مدمجة بمستشعر سوبر 35 في هيكل مريح بأسلوب الكاميرات الرقمية مع مستشعر دي جي أو لمدى ديناميكي واسع. مثالية للمصورين المنفردين والإنتاجات في المساحات الضيقة.",
+        "ckb": "کامێرایەکی سینەما ئیۆسی بچووکی سوپەر ٣٥ لە جەستەیەکی ئەرگۆنۆمیکی شێوازی دی ئێس ئێل ئاڕ بە سینسۆری دی جی ئۆ بۆ مەودای داینامیکی فراوان. تەواوە بۆ وێنەگرە تاکەکان و بەرهەمی شوێنی تەسک."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Super 35 Cinema EOS camera"
+        },
+        {
+          "label": "Sensor",
+          "value": "Super 35 DGO CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "4K DCI (4096 x 2160)"
+        },
+        {
+          "label": "Mount",
+          "value": "RF (EF adaptable)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "120 fps at 4K"
+        },
+        {
+          "label": "Media",
+          "value": "Dual SDXC UHS-II"
+        }
+      ],
+      "stock": 10,
+      "maxPerAccount": 3,
+      "featured": false,
+      "releaseYear": 2020
+    },
+    {
+      "slug": "dji-ronin-4d-8k",
+      "category": "camera",
+      "brandSlug": "dji",
+      "name": {
+        "en": "Ronin 4D-8K",
+        "ar": "رونين 4D-8K",
+        "ckb": "ڕۆنین ٤D-٨K"
+      },
+      "description": {
+        "en": "A revolutionary integrated cinema system combining a full-frame 8K camera with a 4-axis stabilized gimbal, LiDAR focusing and built-in wireless video. A complete cinematic toolkit in one body.",
+        "ar": "نظام سينمائي مدمج ثوري يجمع كاميرا 8K كاملة الإطار مع جيمبال مثبت رباعي المحاور وتركيز ليدار وفيديو لاسلكي مدمج. مجموعة أدوات سينمائية كاملة في هيكل واحد.",
+        "ckb": "سیستەمێکی سینەماییی یەکگرتووی شۆڕشگێڕ کە کامێرای ٨K فول-فرەیم لەگەڵ گیمباڵی چوار-ئەسقی جێگیرکراو و فۆکەسی لایدار و ڤیدیۆی بێ تەل کۆدەکاتەوە. کۆمەڵە ئامرازێکی سینەماییی تەواو لە یەک جەستەدا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Integrated full-frame cinema system"
+        },
+        {
+          "label": "Sensor",
+          "value": "8K full-frame CMOS"
+        },
+        {
+          "label": "Resolution",
+          "value": "8K (8192 x 4320)"
+        },
+        {
+          "label": "Mount",
+          "value": "DL / Leica M (PL/E optional)"
+        },
+        {
+          "label": "Max FPS",
+          "value": "75 fps at 8K"
+        },
+        {
+          "label": "Media",
+          "value": "DJI PROSSD / CFexpress Type B"
+        }
+      ],
+      "stock": 0,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "arri-signature-prime-35mm",
+      "category": "lens",
+      "brandSlug": "arri",
+      "name": {
+        "en": "ARRI Signature Prime 35mm T1.8",
+        "ar": "عدسة آري سيجنتشر برايم 35 ملم T1.8",
+        "ckb": "لێنزی ئاری سیگنەچەر پرایم ٣٥ ملم T1.8"
+      },
+      "description": {
+        "en": "A full-frame large-format prime delivering smooth, organic skin rendering and gentle bokeh that defines the Signature look. Built around the LPL mount for the ALEXA Mini LF and ALEXA 35 systems.",
+        "ar": "عدسة ثابتة بتنسيق كبير للإطار الكامل تقدم تدرجاً ناعماً وطبيعياً لألوان البشرة وتمويهاً خلفياً لطيفاً يميز مظهر سيجنتشر. صُممت حول حامل LPL لأنظمة أليكسا ميني إل إف وأليكسا 35.",
+        "ckb": "لێنزێکی نەگۆڕی فۆرماتی گەورەی فریمی تەواو کە ڕەنگدانەوەیەکی نەرم و سروشتی پێست و بۆکێیەکی نەرم پێشکەش دەکات کە دیمەنی سیگنەچەر دیاری دەکات. لەسەر بنەمای حاملی LPL بۆ سیستەمەکانی ئەلێکسا مینی ئێڵ ئێف و ئەلێکسا ٣٥ دروستکراوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "35mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.8"
+        },
+        {
+          "label": "Mount",
+          "value": "LPL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame / Large Format"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "95mm"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": true,
+      "subtype": ""
+    },
+    {
+      "slug": "arri-master-prime-50mm",
+      "category": "lens",
+      "brandSlug": "arri",
+      "name": {
+        "en": "ARRI Master Prime 50mm T1.3",
+        "ar": "عدسة آري ماستر برايم 50 ملم T1.3",
+        "ckb": "لێنزی ئاری ماستەر پرایم ٥٠ ملم T1.3"
+      },
+      "description": {
+        "en": "A reference Super 35 prime renowned for breathtaking sharpness, near-zero breathing and a fast T1.3 aperture for low-light work. A long-standing standard on high-end productions worldwide.",
+        "ar": "عدسة ثابتة مرجعية بتنسيق سوبر 35 تشتهر بحدّة مذهلة وتنفّس شبه معدوم وفتحة سريعة T1.3 للتصوير في الإضاءة المنخفضة. معيار راسخ في الإنتاجات الراقية حول العالم.",
+        "ckb": "لێنزێکی نەگۆڕی سەرچاوەیی سوپەر ٣٥ کە بە تیژی سەرسوڕهێنەر و هەناسەدانی نزیک لە سفر و کردنەوەی خێرای T1.3 بۆ کاری ڕووناکی کەم ناودارە. ستانداردێکی دێرینە لە بەرهەمە بەرزەکانی جیهاندا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "50mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.3"
+        },
+        {
+          "label": "Mount",
+          "value": "PL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Super 35"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "114mm"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "cooke-s7i-40mm",
+      "category": "lens",
+      "brandSlug": "cooke-optics",
+      "name": {
+        "en": "Cooke S7/i Full Frame Plus 40mm T2.0",
+        "ar": "عدسة كوك S7/i فل فريم بلس 40 ملم T2.0",
+        "ckb": "لێنزی کووک S7/i فوڵ فریم پلەس ٤٠ ملم T2.0"
+      },
+      "description": {
+        "en": "A full-frame prime carrying the legendary Cooke Look, with warm, flattering skin tones and the signature soft falloff. Equipped with /i Technology metadata for streamlined VFX workflows.",
+        "ar": "عدسة ثابتة للإطار الكامل تحمل مظهر كوك الأسطوري، بدرجات بشرة دافئة ومُجمِّلة وتلاشٍ ناعم مميز. مزودة ببيانات تقنية /i لتبسيط سير عمل المؤثرات البصرية.",
+        "ckb": "لێنزی نەگۆڕی فریمی تەواو کە دیمەنی ئەفسانەیی کووکی هەڵگرتووە، بە ڕەنگی پێستی گەرم و جوانکەر و کەمبوونەوەی نەرمی تایبەت. بە تەکنەلۆژیای /i بۆ زانیاری ووردی کاری جلوەکانی بینراو دابینکراوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "40mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2.0"
+        },
+        {
+          "label": "Mount",
+          "value": "PL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame Plus"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "110mm"
+        }
+      ],
+      "stock": 5,
+      "maxPerAccount": 2,
+      "featured": true,
+      "subtype": ""
+    },
+    {
+      "slug": "cooke-anamorphic-i-75mm",
+      "category": "lens",
+      "brandSlug": "cooke-optics",
+      "name": {
+        "en": "Cooke Anamorphic/i 75mm T2.3",
+        "ar": "عدسة كوك أنامورفيك/i 75 ملم T2.3",
+        "ckb": "لێنزی کووک ئەنامۆرفیک/i ٧٥ ملم T2.3"
+      },
+      "description": {
+        "en": "A 2x squeeze anamorphic prime producing classic oval bokeh and warm blue flares with the unmistakable Cooke character. A favorite for cinematic, widescreen storytelling.",
+        "ar": "عدسة أنامورفيك ثابتة بضغط 2x تنتج تمويهاً بيضوياً كلاسيكياً ووهجاً أزرق دافئاً بشخصية كوك التي لا تُخطئ. خيار مفضل لرواية القصص السينمائية بالشاشة العريضة.",
+        "ckb": "لێنزی نەگۆڕی ئەنامۆرفیکی پەستانی 2x کە بۆکێی هێلکەیی کلاسیک و تروسکایی شینی گەرمی دروست دەکات بە کارەکتەری ناوداری کووک. هەڵبژاردەیەکی پەسەند بۆ چیرۆکگێڕانی سینەمایی بە شاشەی پان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Anamorphic"
+        },
+        {
+          "label": "Focal Length",
+          "value": "75mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2.3"
+        },
+        {
+          "label": "Squeeze",
+          "value": "2x"
+        },
+        {
+          "label": "Mount",
+          "value": "PL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Super 35"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "zeiss-supreme-prime-85mm",
+      "category": "lens",
+      "brandSlug": "zeiss",
+      "name": {
+        "en": "ZEISS Supreme Prime 85mm T1.5",
+        "ar": "عدسة زايس سوبريم برايم 85 ملم T1.5",
+        "ckb": "لێنزی زایس سوپریم پرایم ٨٥ ملم T1.5"
+      },
+      "description": {
+        "en": "A fast full-frame prime balancing crisp resolution with smooth, gentle rendering and beautifully controlled bokeh. Lightweight and compact for both studio and handheld shooting.",
+        "ar": "عدسة ثابتة سريعة للإطار الكامل توازن بين الدقة الحادة وتدرج ناعم لطيف وتمويه خلفي جميل التحكم. خفيفة الوزن ومدمجة للتصوير في الاستوديو وباليد.",
+        "ckb": "لێنزێکی نەگۆڕی خێرای فریمی تەواو کە هاوسەنگی دەکات لەنێوان ووردی ڕوون و ڕەنگدانەوەیەکی نەرم و بۆکێیەکی جوانی کۆنترۆڵکراو. سووک و بچووکە بۆ وێنەگرتنی ستۆدیۆ و دەستی."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "85mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.5"
+        },
+        {
+          "label": "Mount",
+          "value": "PL / LPL / EF"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame (46.3mm)"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "95mm"
+        }
+      ],
+      "stock": 7,
+      "maxPerAccount": 2,
+      "featured": true,
+      "subtype": ""
+    },
+    {
+      "slug": "zeiss-cp3-28mm",
+      "category": "lens",
+      "brandSlug": "zeiss",
+      "name": {
+        "en": "ZEISS CP.3 28mm T2.1",
+        "ar": "عدسة زايس CP.3 28 ملم T2.1",
+        "ckb": "لێنزی زایس CP.3 ٢٨ ملم T2.1"
+      },
+      "description": {
+        "en": "A compact, robust full-frame prime offering clean, color-matched imagery across the set. Its interchangeable mount system makes it a versatile choice for any rig.",
+        "ar": "عدسة ثابتة مدمجة ومتينة للإطار الكامل تقدم صورة نظيفة ومتطابقة الألوان عبر المجموعة. يجعلها نظام الحامل القابل للتبديل خياراً متعدد الاستخدامات لأي تجهيز.",
+        "ckb": "لێنزێکی نەگۆڕی بچووک و بەهێزی فریمی تەواو کە وێنەیەکی پاک و هاوڕەنگ لە سەرانسەری کۆمەڵەکەدا پێشکەش دەکات. سیستەمی حاملی گۆڕاو دەیکات بە هەڵبژاردەیەکی فرەکارایی بۆ هەر ڕیگێک."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "28mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2.1"
+        },
+        {
+          "label": "Mount",
+          "value": "PL / EF / E / MFT (interchangeable)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "95mm"
+        }
+      ],
+      "stock": 8,
+      "maxPerAccount": 3,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "angenieux-optimo-24-290mm",
+      "category": "lens",
+      "brandSlug": "angenieux",
+      "name": {
+        "en": "Angénieux Optimo 24-290mm T2.8",
+        "ar": "عدسة أنجينو أوبتيمو 24-290 ملم T2.8",
+        "ckb": "لێنزی ئانژینیۆ ئۆپتیمۆ ٢٤-٢٩٠ ملم T2.8"
+      },
+      "description": {
+        "en": "The legendary 12x zoom delivering prime-grade image quality across an enormous focal range. An Academy Award-winning workhorse trusted on the largest feature films.",
+        "ar": "عدسة الزوم الأسطورية 12x التي تقدم جودة صورة بمستوى العدسات الثابتة عبر مدى بؤري هائل. أداة عمل حائزة على جائزة الأوسكار وموثوقة في أكبر الأفلام الروائية.",
+        "ckb": "زووملێنزی ئەفسانەیی 12x کە کوالیتی وێنەی ئاستی لێنزی نەگۆڕ پێشکەش دەکات لە مەودایەکی فۆکاسی زۆر گەورەدا. ئامرازێکی کاری خاوەن خەڵاتی ئۆسکار کە لە گەورەترین فیلمە درێژەکاندا متمانەی پێدەکرێت."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Zoom"
+        },
+        {
+          "label": "Focal Length",
+          "value": "24-290mm (12x)"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2.8"
+        },
+        {
+          "label": "Mount",
+          "value": "PL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Super 35"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "162mm"
+        }
+      ],
+      "stock": 0,
+      "maxPerAccount": 1,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "angenieux-optimo-ultra-12x",
+      "category": "lens",
+      "brandSlug": "angenieux",
+      "name": {
+        "en": "Angénieux Optimo Ultra 12x 36-435mm T4.2",
+        "ar": "عدسة أنجينو أوبتيمو ألترا 12x 36-435 ملم T4.2",
+        "ckb": "لێنزی ئانژینیۆ ئۆپتیمۆ ئەلترا 12x ٣٦-٤٣٥ ملم T4.2"
+      },
+      "description": {
+        "en": "A large-format 12x zoom with switchable coverage modes spanning Super 35 to full frame. Exceptional optical performance and a constant T4.2 across the entire range.",
+        "ar": "عدسة زوم 12x بتنسيق كبير مع أوضاع تغطية قابلة للتبديل تمتد من سوبر 35 إلى الإطار الكامل. أداء بصري استثنائي وثبات T4.2 عبر المدى الكامل.",
+        "ckb": "زووملێنزی 12x فۆرماتی گەورە لەگەڵ دۆخی پۆشینی گۆڕاو کە لە سوپەر ٣٥ تا فریمی تەواو دەگرێتەوە. کارایی ئۆپتیکی نایاب و T4.2 نەگۆڕ بەسەر هەموو مەودادا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Zoom"
+        },
+        {
+          "label": "Focal Length",
+          "value": "36-435mm (12x)"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T4.2"
+        },
+        {
+          "label": "Mount",
+          "value": "PL / LPL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Super 35 / Full Frame (switchable)"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "187mm"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "sigma-cine-ff-high-speed-50mm",
+      "category": "lens",
+      "brandSlug": "sigma",
+      "name": {
+        "en": "Sigma Cine FF High Speed Prime 50mm T1.5",
+        "ar": "عدسة سيجما سيني FF هاي سبيد برايم 50 ملم T1.5",
+        "ckb": "لێنزی سیگما سینی FF های سپید پرایم ٥٠ ملم T1.5"
+      },
+      "description": {
+        "en": "A full-frame high-speed cine prime delivering sharp 6K-ready resolution and a fast T1.5 aperture. Outstanding optical value in a durable, dust- and splash-resistant body.",
+        "ar": "عدسة سينمائية ثابتة عالية السرعة للإطار الكامل تقدم دقة حادة جاهزة لدقة 6K وفتحة سريعة T1.5. قيمة بصرية متميزة في هيكل متين مقاوم للغبار والرذاذ.",
+        "ckb": "لێنزێکی سینەمایی نەگۆڕی خێرای فریمی تەواو کە ووردی تیژی ئامادە بۆ 6K و کردنەوەی خێرای T1.5 پێشکەش دەکات. بەهایەکی ئۆپتیکی نایاب لە لاشەیەکی بەهێزی بەرگری لە تۆز و چڵکدا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "50mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.5"
+        },
+        {
+          "label": "Mount",
+          "value": "PL / EF / E"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "95mm"
+        }
+      ],
+      "stock": 10,
+      "maxPerAccount": 3,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "sigma-cine-ff-zoom-24-35mm",
+      "category": "lens",
+      "brandSlug": "sigma",
+      "name": {
+        "en": "Sigma Cine FF Zoom 24-35mm T2.2",
+        "ar": "عدسة سيجما سيني FF زوم 24-35 ملم T2.2",
+        "ckb": "لێنزی سیگما سینی FF زووم ٢٤-٣٥ ملم T2.2"
+      },
+      "description": {
+        "en": "A compact full-frame cine zoom with a bright constant T2.2 aperture and zero focus breathing. Color-matched to the Sigma Cine prime line for seamless mixing.",
+        "ar": "عدسة زوم سينمائية مدمجة للإطار الكامل بفتحة ثابتة ساطعة T2.2 وبدون تنفّس للتركيز. متطابقة الألوان مع خط عدسات سيجما سيني الثابتة للمزج السلس.",
+        "ckb": "زووملێنزی سینەمایی بچووکی فریمی تەواو لەگەڵ کردنەوەی ڕووناکی نەگۆڕی T2.2 و بێ هەناسەدانی فۆکاس. هاوڕەنگە لەگەڵ هێڵی لێنزی نەگۆڕی سیگما سینی بۆ تێکەڵکردنی نەرم."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Zoom"
+        },
+        {
+          "label": "Focal Length",
+          "value": "24-35mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2.2"
+        },
+        {
+          "label": "Mount",
+          "value": "PL / EF / E"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "95mm"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "canon-cn-e-24mm",
+      "category": "lens",
+      "brandSlug": "canon",
+      "name": {
+        "en": "Canon CN-E 24mm T1.5 L F",
+        "ar": "عدسة كانون CN-E 24 ملم T1.5 L F",
+        "ckb": "لێنزی کانۆن CN-E ٢٤ ملم T1.5 L F"
+      },
+      "description": {
+        "en": "A full-frame cinema prime from Canon's L-series lineage, offering creamy bokeh and superb low-light capability at T1.5. Designed with an 11-blade iris for natural out-of-focus rendering.",
+        "ar": "عدسة سينمائية ثابتة للإطار الكامل من سلالة كانون L، تقدم تمويهاً ناعماً وقدرة ممتازة في الإضاءة المنخفضة عند T1.5. مصممة بحدقة من 11 شفرة لتدرج طبيعي خارج التركيز.",
+        "ckb": "لێنزی سینەمایی نەگۆڕی فریمی تەواو لە بنەماڵەی L ی کانۆن، کە بۆکێی نەرم و توانای نایابی ڕووناکی کەم لە T1.5 پێشکەش دەکات. بە ئایریسی ١١ پەڕ دیزاینکراوە بۆ ڕەنگدانەوەی سروشتی دەرەوەی فۆکاس."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "24mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.5"
+        },
+        {
+          "label": "Mount",
+          "value": "EF / PL"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "114mm"
+        }
+      ],
+      "stock": 5,
+      "maxPerAccount": 2,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "panavision-primo-70-100mm",
+      "category": "lens",
+      "brandSlug": "panavision",
+      "name": {
+        "en": "Panavision Primo 70 100mm T1.9",
+        "ar": "عدسة بانافيجن بريمو 70 - 100 ملم T1.9",
+        "ckb": "لێنزی پانافیژن پریمۆ 70 - ١٠٠ ملم T1.9"
+      },
+      "description": {
+        "en": "A large-format spherical prime from the celebrated Primo 70 series, prized for its refined contrast, flare control and gorgeous portrait-length compression. Rental-grade glass for premium productions.",
+        "ar": "عدسة كروية ثابتة بتنسيق كبير من سلسلة بريمو 70 الشهيرة، تُقدَّر لتباينها المصقول والتحكم بالوهج وضغط طول البورتريه الرائع. زجاج بمستوى التأجير للإنتاجات المتميزة.",
+        "ckb": "لێنزی نەگۆڕی کرەیی فۆرماتی گەورە لە زنجیرەی بەناوبانگی پریمۆ 70، کە بۆ کۆنتراستی پاڵاوتە و کۆنترۆڵی تروسکە و پەستانی جوانی درێژی پۆرترێت بەنرخە. شووشەی ئاستی کرێ بۆ بەرهەمە بەهادارەکان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Prime"
+        },
+        {
+          "label": "Focal Length",
+          "value": "100mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T1.9"
+        },
+        {
+          "label": "Mount",
+          "value": "PV (Panavision)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame / Large Format"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "134mm"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "panavision-ultra-panatar-50mm",
+      "category": "lens",
+      "brandSlug": "panavision",
+      "name": {
+        "en": "Panavision Ultra Panatar 50mm T2",
+        "ar": "عدسة بانافيجن ألترا باناتار 50 ملم T2",
+        "ckb": "لێنزی پانافیژن ئەلترا پاناتار ٥٠ ملم T2"
+      },
+      "description": {
+        "en": "A 1.3x anamorphic prime offering a subtle widescreen squeeze with classic oval bokeh and elegant horizontal flares. A storied Panavision optic for distinctive, cinematic imagery.",
+        "ar": "عدسة أنامورفيك ثابتة بضغط 1.3x تقدم ضغطاً خفيفاً للشاشة العريضة مع تمويه بيضوي كلاسيكي ووهج أفقي أنيق. عدسة بانافيجن عريقة لصورة سينمائية مميزة.",
+        "ckb": "لێنزی نەگۆڕی ئەنامۆرفیکی پەستانی 1.3x کە پەستانێکی نازکی شاشەی پان لەگەڵ بۆکێی هێلکەیی کلاسیک و تروسکەی ئاسۆیی ناسک پێشکەش دەکات. لێنزێکی مێژووی پانافیژن بۆ وێنەی سینەمایی جیاواز."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Anamorphic"
+        },
+        {
+          "label": "Focal Length",
+          "value": "50mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T2"
+        },
+        {
+          "label": "Squeeze",
+          "value": "1.3x"
+        },
+        {
+          "label": "Mount",
+          "value": "PV (Panavision)"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        }
+      ],
+      "stock": 0,
+      "maxPerAccount": 1,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "sony-fe-c-16-35mm-g",
+      "category": "lens",
+      "brandSlug": "sony",
+      "name": {
+        "en": "Sony FE C 16-35mm T3.1 G",
+        "ar": "عدسة سوني FE C 16-35 ملم T3.1 G",
+        "ckb": "لێنزی سۆنی FE C ١٦-٣٥ ملم T3.1 G"
+      },
+      "description": {
+        "en": "A native E-mount cinema zoom built for the FX and VENICE systems, featuring a constant T3.1 aperture, minimal breathing and smooth, geared focus, iris and zoom rings.",
+        "ar": "عدسة زوم سينمائية بحامل E الأصلي مصممة لأنظمة إف إكس وفينيس، تتميز بفتحة ثابتة T3.1 وتنفّس ضئيل وحلقات تركيز وحدقة وزوم مسننة وناعمة.",
+        "ckb": "زووملێنزی سینەمایی حاملی E ی بنچینەیی کە بۆ سیستەمەکانی FX و VENICE دروستکراوە، خاوەنی کردنەوەی نەگۆڕی T3.1 و هەناسەدانی کەم و ئەڵقەی فۆکاس و ئایریس و زوومی نەرمی دەندانکراوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Zoom"
+        },
+        {
+          "label": "Focal Length",
+          "value": "16-35mm"
+        },
+        {
+          "label": "Max Aperture",
+          "value": "T3.1"
+        },
+        {
+          "label": "Mount",
+          "value": "Sony E"
+        },
+        {
+          "label": "Coverage",
+          "value": "Full Frame"
+        },
+        {
+          "label": "Front Diameter",
+          "value": "114mm"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": false,
+      "subtype": ""
+    },
+    {
+      "slug": "aputure-ls-600x-pro",
+      "category": "light",
+      "brandSlug": "aputure",
+      "name": {
+        "en": "LS 600x Pro",
+        "ar": "إل إس 600 إكس برو",
+        "ckb": "ئێڵ ئێس ٦٠٠ ئێکس پڕۆ"
+      },
+      "description": {
+        "en": "A weather-resistant 600W bi-color point-source LED that anchors any cinematic setup with daylight-to-tungsten flexibility and silent thermal management. The workhorse fixture trusted on sets from intimate interviews to large-scale productions.",
+        "ar": "مصباح LED ثنائي اللون بقدرة 600 واط ومقاوم للعوامل الجوية، يوفّر مرونة من ضوء النهار إلى التنغستن مع إدارة حرارية صامتة. جهاز أساسي موثوق في مواقع التصوير من المقابلات الصغيرة إلى الإنتاجات الكبيرة.",
+        "ckb": "ڕووناکییەکی LEDی دوو ڕەنگی ٦٠٠ واتی کە بەرگری لە کەشوهەوا دەکات و نەرمی لە ڕووناکی ڕۆژەوە بۆ تەنگستن دەبەخشێت لەگەڵ بەڕێوەبردنی گەرمیی بێدەنگ. ئامێرێکی سەرەکیی متمانەپێکراوە لە شوێنی وێنەگرتندا، لە چاوپێکەوتنی بچووکەوە تا بەرهەمهێنانی گەورە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "COB Point-Source"
+        },
+        {
+          "label": "Output",
+          "value": "600W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Bi-color 2700–6500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥96 / TLCI ≥96"
+        },
+        {
+          "label": "Power",
+          "value": "AC or 48V Block Battery"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / Sidus Link App / Wireless"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": true,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "aputure-ls-1200d-pro",
+      "category": "light",
+      "brandSlug": "aputure",
+      "name": {
+        "en": "LS 1200d Pro",
+        "ar": "إل إس 1200 دي برو",
+        "ckb": "ئێڵ ئێس ١٢٠٠ دی پڕۆ"
+      },
+      "description": {
+        "en": "A 1200W daylight COB powerhouse delivering single-source intensity that rivals an HMI while running on standard power. Designed to punch through windows and shape big spaces with crisp, clean output.",
+        "ar": "مصباح COB بضوء النهار وبقدرة 1200 واط يقدّم شدّة إضاءة من مصدر واحد تنافس مصابيح HMI بينما يعمل على طاقة قياسية. مصمّم لاختراق النوافذ وتشكيل المساحات الكبيرة بإضاءة نقية وحادّة.",
+        "ckb": "ڕووناکییەکی COBی ١٢٠٠ واتیی ڕووناکیی ڕۆژ کە تینێکی یەک‌سەرچاوەی هەیە و کێبڕکێ لەگەڵ HMI دەکات، بەڵام بە کارەبای ئاسایی کار دەکات. دیزاینکراوە بۆ تێپەڕاندنی پەنجەرە و شێوەدانی شوێنی فراوان بە دەرهێنانێکی پاک و تیژ."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "COB Point-Source"
+        },
+        {
+          "label": "Output",
+          "value": "1200W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Daylight 5600K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥96 / TLCI ≥96"
+        },
+        {
+          "label": "Power",
+          "value": "AC Mains"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / Sidus Link App"
+        }
+      ],
+      "stock": 3,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "aputure-nova-p600c",
+      "category": "light",
+      "brandSlug": "aputure",
+      "name": {
+        "en": "Nova P600c",
+        "ar": "نوفا بي 600 سي",
+        "ckb": "نۆڤا پی ٦٠٠ سی"
+      },
+      "description": {
+        "en": "A full-color RGBWW soft panel built for production, offering deep saturation, accurate skin tones and effortless color matching across an entire set. A go-to source for portable, high-output soft light with full creative control.",
+        "ar": "لوحة إضاءة ناعمة كاملة الألوان بنظام RGBWW مصممة للإنتاج، توفّر تشبّعاً عميقاً ودرجات بشرة دقيقة ومطابقة لون سلسة عبر الموقع بأكمله. مصدر مفضّل لضوء ناعم محمول عالي الإخراج مع تحكّم إبداعي كامل.",
+        "ckb": "پانێڵێکی نەرمی تەواوڕەنگ بە سیستەمی RGBWW کە بۆ بەرهەمهێنان دروستکراوە، تێرڕەنگیی قووڵ و ڕەنگی پێستی ورد و گونجاندنی ڕەنگ بە ئاسانی پێشکەش دەکات بەسەر هەموو شوێنەکەدا. سەرچاوەیەکی هەڵبژێردراوە بۆ ڕووناکیی نەرمی گواستراوەی بەرز لەگەڵ کۆنترۆڵێکی داهێنەرانەی تەواو."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "RGBWW Soft Panel"
+        },
+        {
+          "label": "Output",
+          "value": "650W LED"
+        },
+        {
+          "label": "Color",
+          "value": "RGBWW 2000–10000K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥95 / TLCI ≥96"
+        },
+        {
+          "label": "Power",
+          "value": "AC or V-Mount Battery"
+        },
+        {
+          "label": "Control",
+          "value": "DMX / Sidus Link App"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2020
+    },
+    {
+      "slug": "aputure-amaran-t4c",
+      "category": "light",
+      "brandSlug": "aputure",
+      "name": {
+        "en": "amaran T4c",
+        "ar": "أماران تي 4 سي",
+        "ckb": "ئەماران تی ٤ سی"
+      },
+      "description": {
+        "en": "A 4-foot RGBWW LED tube light that delivers full-color output, swappable battery power and app control in a slim, travel-friendly body. An affordable, versatile source for accents, practicals and creative color in tight spaces.",
+        "ar": "مصباح أنبوبي LED بنظام RGBWW وبطول 4 أقدام يقدّم إخراجاً كامل الألوان وطاقة ببطارية قابلة للتبديل وتحكّماً عبر التطبيق في هيكل نحيف سهل الحمل. مصدر اقتصادي ومتعدد الاستخدامات للمسات والإضاءات العملية والألوان الإبداعية في المساحات الضيّقة.",
+        "ckb": "ڕووناکییەکی لوولەییی LED بە سیستەمی RGBWW و بە درێژیی ٤ پێ کە دەرهێنانی تەواوڕەنگ و وزەی پاتریی گۆڕاو و کۆنترۆڵ بە ئەپ پێشکەش دەکات لە لاشەیەکی باریک و گونجاو بۆ گەشت. سەرچاوەیەکی هەرزان و هەمەکاره بۆ ڕەنگی داهێنەرانە لە شوێنی تەسکدا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "RGBWW LED Tube (4 ft)"
+        },
+        {
+          "label": "Output",
+          "value": "40W LED"
+        },
+        {
+          "label": "Color",
+          "value": "RGBWW 2500–7500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥95 / TLCI ≥98"
+        },
+        {
+          "label": "Power",
+          "value": "AC Adapter or Battery Grip"
+        },
+        {
+          "label": "Control",
+          "value": "Sidus Link App / DMX"
+        }
+      ],
+      "stock": 9,
+      "maxPerAccount": 3,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "nanlux-evoke-1200b",
+      "category": "light",
+      "brandSlug": "nanlux",
+      "name": {
+        "en": "Evoke 1200B",
+        "ar": "إيفوك 1200 بي",
+        "ckb": "ئیڤۆک ١٢٠٠ بی"
+      },
+      "description": {
+        "en": "A 1200W bi-color spotlight engineered for long-throw intensity and exceptional output efficiency on demanding sets. Its NL mount and weatherproof build make it a reliable key for large studio and location work.",
+        "ar": "كشّاف ثنائي اللون بقدرة 1200 واط مصمّم لشدّة إضاءة بعيدة المدى وكفاءة إخراج استثنائية في مواقع التصوير الصعبة. حامل NL وبنيته المقاومة للعوامل الجوية يجعلانه إضاءة رئيسية موثوقة للاستوديوهات الكبيرة والمواقع الخارجية.",
+        "ckb": "تیشکدەرێکی دوو ڕەنگی ١٢٠٠ واتی کە بۆ تینی دوور و کارایی دەرهێنانی نایاب لە شوێنە سەختەکان دیزاینکراوە. هۆڵدەری NL و دروستکراوەی بەرگری لە کەشوهەوا دەیکات بە ڕووناکیی سەرەکیی متمانەپێکراو بۆ ستۆدیۆ گەورەکان و شوێنی دەرەوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "COB Spotlight"
+        },
+        {
+          "label": "Output",
+          "value": "1200W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Bi-color 2700–6500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥96 / TLCI ≥98"
+        },
+        {
+          "label": "Power",
+          "value": "AC Mains"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / NANLINK App"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "nanlux-evoke-2400b",
+      "category": "light",
+      "brandSlug": "nanlux",
+      "name": {
+        "en": "Evoke 2400B",
+        "ar": "إيفوك 2400 بي",
+        "ckb": "ئیڤۆک ٢٤٠٠ بی"
+      },
+      "description": {
+        "en": "A 2400W bi-color monster delivering some of the highest single-source LED output available, built to compete with large HMIs and tungsten units. The choice for cinematographers lighting expansive sets and daylight interiors.",
+        "ar": "وحدة عملاقة ثنائية اللون بقدرة 2400 واط تقدّم واحدة من أعلى مستويات الإخراج من مصدر واحد، مصممة لمنافسة مصابيح HMI الكبيرة ووحدات التنغستن. خيار مديري التصوير لإضاءة المواقع الواسعة والديكورات الداخلية النهارية.",
+        "ckb": "یەکەیەکی گەورەی دوو ڕەنگی ٢٤٠٠ واتی کە یەکێکە لە بەرزترین دەرهێنانی یەک‌سەرچاوەی LED، بۆ کێبڕکێ لەگەڵ HMI گەورەکان و یەکەکانی تەنگستن دروستکراوە. هەڵبژاردەی دەرهێنەرانی وێنە بۆ ڕووناککردنەوەی شوێنی فراوان و ناوماڵی ڕووناکیی ڕۆژ."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "COB Spotlight"
+        },
+        {
+          "label": "Output",
+          "value": "2400W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Bi-color 2700–6500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥96 / TLCI ≥97"
+        },
+        {
+          "label": "Power",
+          "value": "AC Mains"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / NANLINK App / Wireless"
+        }
+      ],
+      "stock": 0,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "nanlux-dyno-650c",
+      "category": "light",
+      "brandSlug": "nanlux",
+      "name": {
+        "en": "Dyno 650C",
+        "ar": "داينو 650 سي",
+        "ckb": "داینۆ ٦٥٠ سی"
+      },
+      "description": {
+        "en": "A 650W full-color RGBWW soft panel offering broad, even illumination and rich saturated hues for large-area lighting. Ideal as a wraparound key or vivid color wash on commercial and narrative work.",
+        "ar": "لوحة ناعمة كاملة الألوان بنظام RGBWW وبقدرة 650 واط توفّر إضاءة واسعة ومتساوية ودرجات لون غنية ومشبّعة لإضاءة المساحات الكبيرة. مثالية كإضاءة رئيسية محيطة أو غمر لوني زاهٍ في الأعمال التجارية والروائية.",
+        "ckb": "پانێڵێکی نەرمی تەواوڕەنگی RGBWWی ٦٥٠ واتی کە ڕووناکیی فراوان و یەکسان و ڕەنگی دەوڵەمەند و تێرڕەنگ پێشکەش دەکات بۆ ڕووناککردنەوەی ناوچەی گەورە. باشە وەک ڕووناکیی سەرەکیی دەوروبەر یان ڕەنگاوڕەنگکردنی زیندووی شوێن لە کاری بازرگانی و چیرۆکیدا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "RGBWW Soft Panel"
+        },
+        {
+          "label": "Output",
+          "value": "650W LED"
+        },
+        {
+          "label": "Color",
+          "value": "RGBWW 2700–20000K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥95 / TLCI ≥96"
+        },
+        {
+          "label": "Power",
+          "value": "AC Mains"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / NANLINK App"
+        }
+      ],
+      "stock": 5,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "arri-skypanel-s60-c",
+      "category": "light",
+      "brandSlug": "arri",
+      "name": {
+        "en": "SkyPanel S60-C",
+        "ar": "سكاي بانل إس 60 سي",
+        "ckb": "سکای پانێڵ ئێس ٦٠ سی"
+      },
+      "description": {
+        "en": "The industry-defining color-tunable LED soft light, renowned for impeccable color rendition, deep dimming and creative effects. A studio standard whose beautiful, controllable quality has lit countless features and broadcasts.",
+        "ar": "الإضاءة الناعمة بنظام LED القابلة لضبط اللون والتي حدّدت معايير الصناعة، مشهورة بدقّة عرض اللون والتعتيم العميق والمؤثرات الإبداعية. معيار استوديو أضاءت جودته الجميلة عدداً لا يُحصى من الأفلام وبرامج البثّ.",
+        "ckb": "ڕووناکیی نەرمی LEDی گونجاندنی ڕەنگ کە پێوەری پیشەسازیی دیاری کردووە، بەناوبانگە بە پیشاندانی ڕەنگی بێ کەموکوڕی و تاریککردنەوەی قووڵ و کاریگەریی داهێنەرانە. پێوەرێکی ستۆدیۆیە کە کوالیتیی جوان و کۆنترۆڵکراوی فیلم و پەخشی بێشومارێکی ڕووناک کردووەتەوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "RGBW+ Soft Panel"
+        },
+        {
+          "label": "Output",
+          "value": "450W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Full-color tunable 2800–10000K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "TLCI ≥95"
+        },
+        {
+          "label": "Power",
+          "value": "AC or DC 48V"
+        },
+        {
+          "label": "Control",
+          "value": "DMX/RDM / LAN / Wireless"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2015
+    },
+    {
+      "slug": "arri-orbiter",
+      "category": "light",
+      "brandSlug": "arri",
+      "name": {
+        "en": "Orbiter",
+        "ar": "أوربيتر",
+        "ckb": "ئۆربیتەر"
+      },
+      "description": {
+        "en": "A directional, ultra-bright point-source LED with interchangeable optics that transform it from open-face to projection, dome or Fresnel. ARRI's most versatile fixture, delivering pristine color and beam-shaping freedom.",
+        "ar": "مصباح LED اتجاهي فائق السطوع بمصدر نقطي مع بصريات قابلة للتبديل تحوّله من مفتوح الواجهة إلى الإسقاط أو القبّة أو الفرينل. أكثر أجهزة ARRI تنوّعاً، يقدّم لوناً نقياً وحرية تشكيل الشعاع.",
+        "ckb": "ڕووناکییەکی LEDی ئاراستەییی زۆر بەهێز بە سەرچاوەی خاڵی لەگەڵ بینایی گۆڕاو کە لە کراوەوە بۆ پڕۆجێکشن و گومبەز و فرینێل دەیگۆڕێت. هەمەلایەنترین ئامێری ARRI، ڕەنگی پاک و ئازادیی شێوەدانی تیشک پێشکەش دەکات."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "COB Point-Source (interchangeable optics)"
+        },
+        {
+          "label": "Output",
+          "value": "500W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Full-color tunable 2000–10000K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥98 / TLCI ≥95"
+        },
+        {
+          "label": "Power",
+          "value": "AC or DC 48V"
+        },
+        {
+          "label": "Control",
+          "value": "DMX/RDM / LiOS App / Wireless"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": false,
+      "releaseYear": 2019
+    },
+    {
+      "slug": "arri-skypanel-x21",
+      "category": "light",
+      "brandSlug": "arri",
+      "name": {
+        "en": "SkyPanel X21",
+        "ar": "سكاي بانل إكس 21",
+        "ckb": "سکای پانێڵ ئێکس ٢١"
+      },
+      "description": {
+        "en": "A modular, weatherproof LED system that scales from soft to hard light and combines into larger arrays for maximum output. The next-generation evolution of the SkyPanel built for the most demanding modern productions.",
+        "ar": "نظام LED معياري مقاوم للعوامل الجوية يتدرّج من الضوء الناعم إلى الحادّ ويتّحد في مصفوفات أكبر لأقصى إخراج. التطوّر من الجيل التالي لسكاي بانل المصمّم لأكثر الإنتاجات الحديثة تطلّباً.",
+        "ckb": "سیستەمێکی LEDی مۆدیولار و بەرگری لە کەشوهەوا کە لە ڕووناکیی نەرمەوە بۆ ڕەق دەگۆڕێت و دەکرێت یەک بخرێت بۆ ئەرەیی گەورەتر بۆ زۆرترین دەرهێنان. پەرەسەندنی نەوەی داهاتووی سکای پانێڵ کە بۆ سەختترین بەرهەمهێنانی هاوچەرخ دروستکراوە."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "Modular Soft/Hard LED"
+        },
+        {
+          "label": "Output",
+          "value": "1100W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Full-color tunable 1700–20000K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "TLCI ≥95"
+        },
+        {
+          "label": "Power",
+          "value": "AC or DC 48V"
+        },
+        {
+          "label": "Control",
+          "value": "DMX/RDM / Ethernet / Wireless"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "kino-flo-celeb-450-dmx",
+      "category": "light",
+      "brandSlug": "kino-flo",
+      "name": {
+        "en": "Celeb 450 DMX",
+        "ar": "سيليب 450 دي إم إكس",
+        "ckb": "سێلێب ٤٥٠ دی ئێم ئێکس"
+      },
+      "description": {
+        "en": "A fan-free, true-match color LED soft light delivering flicker-free, broadcast-grade illumination with effortless on-board control. A studio favorite prized for its quiet operation and beautifully soft, accurate output.",
+        "ar": "إضاءة ناعمة بنظام LED بمطابقة لون حقيقية وبلا مروحة، تقدّم إضاءة خالية من الوميض بمستوى البثّ مع تحكّم مدمج سلس. مفضّلة في الاستوديوهات لتشغيلها الهادئ وإخراجها الناعم الدقيق الجميل.",
+        "ckb": "ڕووناکیی نەرمی LED بە گونجانی ڕەنگی ڕاستەقینە و بێ بادەزن کە ڕووناکیی بێ خشپە و ئاستی پەخش پێشکەش دەکات لەگەڵ کۆنترۆڵێکی ئاسانی ناوەکی. لە ستۆدیۆکاندا خۆشەویستە بۆ کارکردنی بێدەنگ و دەرهێنانی نەرمی ورد و جوان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "LED Soft Panel"
+        },
+        {
+          "label": "Output",
+          "value": "230W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Bi-color 2700–5500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥95 / TLCI ≥95"
+        },
+        {
+          "label": "Power",
+          "value": "AC or DC Battery"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / On-board"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2017
+    },
+    {
+      "slug": "kino-flo-diva-lite-le-30",
+      "category": "light",
+      "brandSlug": "kino-flo",
+      "name": {
+        "en": "Diva-Lite LED 30",
+        "ar": "ديفا-لايت إل إي دي 30",
+        "ckb": "دیڤا-لایت ئێل ئی دی ٣٠"
+      },
+      "description": {
+        "en": "A compact, portable soft light beloved for flattering, true-color interview and beauty lighting that travels anywhere. Its low draw and quiet, fan-free design make it a dependable on-location key and fill.",
+        "ar": "إضاءة ناعمة مدمجة ومحمولة محبوبة للإضاءة الجذّابة بألوان حقيقية للمقابلات والجمال وتنتقل إلى أي مكان. استهلاكها المنخفض وتصميمها الهادئ بلا مروحة يجعلانها إضاءة رئيسية وتعبئة موثوقة في المواقع.",
+        "ckb": "ڕووناکیی نەرمی بچووک و گواستراوە کە خۆشەویستە بۆ ڕووناکیی چاوپێکەوتن و جوانی بە ڕەنگی ڕاستەقینە و بۆ هەر شوێنێک دەگوازرێتەوە. بەکارهێنانی کەم و دیزاینی بێدەنگی بێ بادەزن دەیکات بە ڕووناکیی سەرەکی و پڕکەرەوەی متمانەپێکراو لە شوێندا."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "LED Soft Panel"
+        },
+        {
+          "label": "Output",
+          "value": "150W LED"
+        },
+        {
+          "label": "Color",
+          "value": "Bi-color 2700–5500K"
+        },
+        {
+          "label": "CRI/TLCI",
+          "value": "CRI ≥95 / TLCI ≥95"
+        },
+        {
+          "label": "Power",
+          "value": "AC or DC Battery"
+        },
+        {
+          "label": "Control",
+          "value": "DMX512 / On-board"
+        }
+      ],
+      "stock": 7,
+      "maxPerAccount": 3,
+      "featured": false,
+      "releaseYear": 2018
+    },
+    {
+      "slug": "smallrig-rl-30-c-stand",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "stand",
+      "name": {
+        "en": "SmallRig RL-30 Heavy-Duty C-Stand",
+        "ar": "سمول ريغ RL-30 حامل سي ثقيل التحمل",
+        "ckb": "سمۆڵ ڕیگ RL-30 ستاندی سی-ی قورس"
+      },
+      "description": {
+        "en": "A studio-grade chrome C-stand with a gravity-locking grip head and turtle-base legs for rock-solid placement of lights and flags. Built to hold heavy fixtures on set without wobble or drift.",
+        "ar": "حامل سي كرومي بمستوى الاستوديو مزوّد برأس قبضة بقفل جاذبي وأرجل قاعدة سلحفاة لتثبيت الإضاءة والحواجز بثبات تام. مصمّم لحمل التجهيزات الثقيلة في موقع التصوير دون اهتزاز أو انزلاق.",
+        "ckb": "ستانێکی سی-ی کرۆمی بە ئاستی ستۆدیۆ لەگەڵ سەری گرتنی قوفڵی کێشخۆر و قاچی بنکەی کیسەڵ بۆ دانانی پتەوی ڕووناکی و فلاگ. دروستکراوە بۆ هەڵگرتنی ئامێری قورس لەسەر سێت بەبێ لەرزین یان خلیسکان."
+      },
+      "specs": [
+        {
+          "label": "Max Height",
+          "value": "330 cm"
+        },
+        {
+          "label": "Folded Length",
+          "value": "126 cm"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "10 kg"
+        },
+        {
+          "label": "Material",
+          "value": "Chrome-plated steel"
+        },
+        {
+          "label": "Base",
+          "value": "Turtle base, removable legs"
+        }
+      ],
+      "stock": 9,
+      "maxPerAccount": 4,
+      "featured": false,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "smallrig-ra-s280-light-stand",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "stand",
+      "name": {
+        "en": "SmallRig RA-S280 Air-Cushioned Light Stand",
+        "ar": "سمول ريغ RA-S280 حامل إضاءة بوسادة هوائية",
+        "ckb": "سمۆڵ ڕیگ RA-S280 ستانی ڕووناکی بە بالشتی هەوایی"
+      },
+      "description": {
+        "en": "A lightweight aluminium light stand with air-cushioned cylinders that lower fixtures gently to prevent damage. Folds compact for travel while extending tall enough for key and backlight setups.",
+        "ar": "حامل إضاءة من الألمنيوم خفيف الوزن مزوّد بأسطوانات ذات وسائد هوائية تُنزل التجهيزات بلطف لمنع التلف. يُطوى بحجم مدمج للسفر ويمتد بارتفاع كافٍ لإعدادات الإضاءة الرئيسية والخلفية.",
+        "ckb": "ستانێکی ڕووناکی سووکی ئەلومینیۆم بە سلیندری بالشتی هەوایی کە بە نەرمی ئامێرەکان دادەبەزێنێت بۆ ڕێگری لە زیان. بە ڕێکوپێکی دادەخرێتەوە بۆ گەشت و بەرز دەبێتەوە بۆ ڕێکخستنی ڕووناکی سەرەکی و پشتەوە."
+      },
+      "specs": [
+        {
+          "label": "Max Height",
+          "value": "280 cm"
+        },
+        {
+          "label": "Folded Length",
+          "value": "92 cm"
+        },
+        {
+          "label": "Load Capacity",
+          "value": "8 kg"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminium alloy"
+        },
+        {
+          "label": "Weight",
+          "value": "2.6 kg"
+        }
+      ],
+      "stock": 12,
+      "maxPerAccount": 4,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "dji-ronin-2-pro",
+      "category": "accessories",
+      "brandSlug": "dji",
+      "subtype": "gimbal",
+      "name": {
+        "en": "DJI Ronin 2 Professional Combo",
+        "ar": "دي جي آي رونين 2 إصدار احترافي",
+        "ckb": "دی جی ئای ڕۆنین 2 کۆمبۆی پیشەیی"
+      },
+      "description": {
+        "en": "A heavy-payload three-axis gimbal engineered for cinema cameras, cranes and vehicle rigs in the most demanding productions. Active stabilization holds rock-steady framing while carrying fully built-out camera packages.",
+        "ar": "حامل ثلاثي المحاور بحمولة ثقيلة مصمّم لكاميرات السينما والرافعات وتجهيزات المركبات في أصعب الإنتاجات. يحافظ التثبيت النشط على تأطير ثابت تماماً أثناء حمل حِزَم كاميرا مجهّزة بالكامل.",
+        "ckb": "گیمبلێکی سێ تەوەری بە بارگرانی بۆ کامێرای سینەما و کرەین و ڕیگی ئۆتۆمبێل لە بەرهەمهێنانە قورسەکان. جێگیرکردنی چالاک چوارچێوەیەکی تەواو پتەو دەپارێزێت لەکاتی هەڵگرتنی پاکێجی کامێرای تەواو."
+      },
+      "specs": [
+        {
+          "label": "Tested Payload",
+          "value": "13.6 kg"
+        },
+        {
+          "label": "Axes",
+          "value": "3-axis stabilization"
+        },
+        {
+          "label": "Battery Runtime",
+          "value": "Up to 8 hours"
+        },
+        {
+          "label": "Max Rotation Speed",
+          "value": "360°/s"
+        },
+        {
+          "label": "Control",
+          "value": "Built-in Wi-Fi + Bluetooth, DJI app"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2017
+    },
+    {
+      "slug": "dji-rs-4-pro",
+      "category": "accessories",
+      "brandSlug": "dji",
+      "subtype": "gimbal",
+      "name": {
+        "en": "DJI RS 4 Pro",
+        "ar": "دي جي آي RS 4 برو",
+        "ckb": "دی جی ئای RS 4 پرۆ"
+      },
+      "description": {
+        "en": "A pro-grade handheld stabilizer with carbon-fibre axis arms and automated axis locks for fast setup between shots. Carries mirrorless and compact cinema rigs with refined motors and LiDAR-assisted focus support.",
+        "ar": "مثبّت محمول باليد بمستوى احترافي مع أذرع محاور من ألياف الكربون وأقفال محاور آلية للإعداد السريع بين اللقطات. يحمل كاميرات بدون مرآة وتجهيزات سينما مدمجة بمحرّكات مُحسّنة ودعم تركيز بمساعدة الليدار.",
+        "ckb": "جێگیرکەرێکی دەستی پیشەیی بە بازووی تەوەری فایبەری کاربۆن و قوفڵی تەوەری ئۆتۆماتیک بۆ ڕێکخستنی خێرا لەنێوان شاتەکان. کامێرای بێ ئاوێنە و ڕیگی سینەمای بچووک هەڵدەگرێت بە مۆتۆری پێشکەوتوو و پشتگیری فۆکەسی LiDAR."
+      },
+      "specs": [
+        {
+          "label": "Tested Payload",
+          "value": "4.5 kg"
+        },
+        {
+          "label": "Axes",
+          "value": "3-axis stabilization"
+        },
+        {
+          "label": "Battery Runtime",
+          "value": "Up to 13 hours"
+        },
+        {
+          "label": "Arm Material",
+          "value": "Carbon fibre"
+        },
+        {
+          "label": "Charging",
+          "value": "Full charge in 2.5 hours"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2024
+    },
+    {
+      "slug": "blackmagic-video-assist-7-12g-hdr",
+      "category": "accessories",
+      "brandSlug": "blackmagic-design",
+      "subtype": "monitor",
+      "name": {
+        "en": "Blackmagic Video Assist 7\" 12G HDR",
+        "ar": "بلاك ماجيك فيديو أسيست 7 بوصة 12G HDR",
+        "ckb": "بلاکماجیک ڤیدیۆ ئەسیست 7 ئینچ 12G HDR"
+      },
+      "description": {
+        "en": "A bright HDR monitor-recorder that captures broadcast-quality ProRes and Blu-ray-quality H.265 directly from 12G-SDI and HDMI sources. The high-nit touchscreen doubles as an on-set field monitor and a reliable backup recorder.",
+        "ar": "شاشة-مسجّل HDR ساطعة تلتقط ProRes بجودة البث و H.265 بجودة بلو-راي مباشرة من مصادر 12G-SDI و HDMI. تعمل الشاشة اللمسية عالية السطوع كشاشة ميدانية في الموقع وكمسجّل احتياطي موثوق.",
+        "ckb": "مۆنیتەر-تۆمارکەرێکی HDR ڕووناک کە ProRes بە کوالیتی بڵاوکردنەوە و H.265 بە کوالیتی بلو-ڕەی تۆمار دەکات لە سەرچاوەی 12G-SDI و HDMI. شاشە دەستلێدراوە بەرزەکە وەک مۆنیتەری مەیدانی و تۆمارکەری یەدەگی متمانەپێکراو کار دەکات."
+      },
+      "specs": [
+        {
+          "label": "Screen Size",
+          "value": "7 inch"
+        },
+        {
+          "label": "Brightness",
+          "value": "2500 nits"
+        },
+        {
+          "label": "Recording",
+          "value": "ProRes & H.265 to SD / UHS-II"
+        },
+        {
+          "label": "Inputs",
+          "value": "12G-SDI, HDMI 2.0"
+        },
+        {
+          "label": "Resolution",
+          "value": "1920 x 1200"
+        }
+      ],
+      "stock": 5,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2019
+    },
+    {
+      "slug": "teradek-wave-on-camera-monitor",
+      "category": "accessories",
+      "brandSlug": "teradek",
+      "subtype": "monitor",
+      "name": {
+        "en": "Teradek Wave On-Camera Monitor",
+        "ar": "تيراداك ويف شاشة على الكاميرا",
+        "ckb": "تێرادێک ویڤ مۆنیتەری سەر کامێرا"
+      },
+      "description": {
+        "en": "A daylight-viewable 5.5-inch on-camera monitor with integrated wireless video transmission for instant feedback to the crew. Combines a crisp HDR-ready panel with low-latency streaming in a single compact unit.",
+        "ar": "شاشة على الكاميرا مقاس 5.5 بوصة قابلة للرؤية في ضوء النهار مع نقل فيديو لاسلكي مدمج لتغذية راجعة فورية لطاقم العمل. تجمع بين لوحة واضحة جاهزة لـ HDR وبثّ منخفض الكمون في وحدة مدمجة واحدة.",
+        "ckb": "مۆنیتەری سەر کامێرای 5.5 ئینچی کە لە ڕووناکی ڕۆژدا دەبینرێت لەگەڵ گواستنەوەی ڤیدیۆی بێ تەل بۆ فیدباکی خێرا بۆ تیمی کار. پانێڵێکی ڕوون و ئامادە بۆ HDR و ستریمی کەم-دواکەوتن لە یەکەیەکی بچووکدا کۆدەکاتەوە."
+      },
+      "specs": [
+        {
+          "label": "Screen Size",
+          "value": "5.5 inch"
+        },
+        {
+          "label": "Brightness",
+          "value": "1000 nits"
+        },
+        {
+          "label": "Transmission Range",
+          "value": "Up to 90 m line of sight"
+        },
+        {
+          "label": "Resolution",
+          "value": "1920 x 1080"
+        },
+        {
+          "label": "Latency",
+          "value": "Sub-frame wireless"
+        }
+      ],
+      "stock": 0,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "sachtler-flowtech-75-system",
+      "category": "accessories",
+      "brandSlug": "sachtler",
+      "subtype": "tripod",
+      "name": {
+        "en": "Sachtler flowtech 75 Carbon Tripod System",
+        "ar": "زاكتلر فلوتيك 75 نظام حامل ثلاثي كربوني",
+        "ckb": "زاختلەر فلۆتێک 75 سیستەمی سێپێی کاربۆن"
+      },
+      "description": {
+        "en": "A carbon-fibre tripod system with quick-release brakes on every leg for the fastest setup in the industry. Its hidden mid-level spreader and low ground spread give shooters total flexibility on uneven terrain.",
+        "ar": "نظام حامل ثلاثي من ألياف الكربون مع مكابح سريعة التحرير على كل ساق لأسرع إعداد في الصناعة. يمنح الموزّع الخفي متوسط المستوى والانتشار الأرضي المنخفض المصوّرين مرونة كاملة على التضاريس غير المستوية.",
+        "ckb": "سیستەمی سێپێی فایبەری کاربۆن بە بڕەیکی خێرا لەسەر هەر قاچێک بۆ خێراترین ڕێکخستن لە پیشەسازیدا. بەڵاوکەرەوەی شاراوەی ناوەڕاست و بڵاوبوونەوەی نزم لەسەر زەوی نەرمییەکی تەواو دەداتە کامێرامان لەسەر زەوی ناهاوار."
+      },
+      "specs": [
+        {
+          "label": "Bowl Size",
+          "value": "75 mm"
+        },
+        {
+          "label": "Max Height",
+          "value": "153 cm"
+        },
+        {
+          "label": "Min Height",
+          "value": "26 cm"
+        },
+        {
+          "label": "Payload",
+          "value": "Up to 20 kg"
+        },
+        {
+          "label": "Material",
+          "value": "Carbon fibre"
+        }
+      ],
+      "stock": 3,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2018
+    },
+    {
+      "slug": "sachtler-aktiv8-flowtech-100",
+      "category": "accessories",
+      "brandSlug": "sachtler",
+      "subtype": "tripod",
+      "name": {
+        "en": "Sachtler aktiv8 flowtech 100 Fluid Head System",
+        "ar": "زاكتلر أكتيف8 فلوتيك 100 نظام رأس سائل",
+        "ckb": "زاختلەر ئاکتیڤ8 فلۆتێک 100 سیستەمی سەری شلە"
+      },
+      "description": {
+        "en": "A premium fluid-head and carbon-tripod package delivering ultra-smooth pans and tilts for heavy cinema builds. The SpeedLevel clutch and SOMOtag tracking make leveling and asset management effortless on set.",
+        "ar": "حزمة فاخرة من رأس سائل وحامل كربوني توفّر حركات أفقية ورأسية فائقة النعومة للتجهيزات السينمائية الثقيلة. يجعل قابض SpeedLevel وتتبّع SOMOtag عملية الموازنة وإدارة المعدات سهلة في الموقع.",
+        "ckb": "پاکێجی سەری شلە و سێپێی کاربۆنی پرێمیۆم کە پان و تیڵتی زۆر نەرم پێشکەش دەکات بۆ ڕیگی قورسی سینەما. کلەچی SpeedLevel و شوێنکەوتنی SOMOtag ئاستکردن و بەڕێوەبردنی کەرەستە ئاسان دەکات لەسەر سێت."
+      },
+      "specs": [
+        {
+          "label": "Bowl Size",
+          "value": "100 mm"
+        },
+        {
+          "label": "Payload Range",
+          "value": "2 – 28 kg"
+        },
+        {
+          "label": "Counterbalance Steps",
+          "value": "15 + 0"
+        },
+        {
+          "label": "Drag Steps",
+          "value": "7 pan / 7 tilt"
+        },
+        {
+          "label": "Tilt Range",
+          "value": "+90° / -75°"
+        }
+      ],
+      "stock": 2,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2020
+    },
+    {
+      "slug": "arri-lmb-4x5-matte-box",
+      "category": "accessories",
+      "brandSlug": "arri",
+      "subtype": "matte-box",
+      "name": {
+        "en": "ARRI LMB 4x5 Matte Box",
+        "ar": "آري LMB 4x5 صندوق حجب الضوء",
+        "ckb": "ئاری LMB 4x5 ماتبۆکس"
+      },
+      "description": {
+        "en": "A lightweight clamp-on and rod-mount matte box accepting 4x5.65 filters for precise flare control on professional lenses. Modular trays and a swing-away design make filter changes fast during demanding shoot days.",
+        "ar": "صندوق حجب ضوء خفيف الوزن قابل للتثبيت بالمشبك أو على القضبان، يقبل مرشّحات 4x5.65 للتحكم الدقيق في الوهج على العدسات الاحترافية. تجعل الأدراج المعيارية وتصميم التأرجح تغيير المرشّحات سريعاً في أيام التصوير الصعبة.",
+        "ckb": "ماتبۆکسێکی سووک کە بە کلامپ و ڕۆد دادەنرێت و فلتەری 4x5.65 وەردەگرێت بۆ کۆنترۆڵی وردی فلێر لەسەر لێنزی پیشەیی. تڕەی مۆدیولار و دیزاینی سوینگ-ئاوەی گۆڕینی فلتەر خێرا دەکات لە ڕۆژانی قورسی شوتدا."
+      },
+      "specs": [
+        {
+          "label": "Filter Size",
+          "value": "4 x 5.65 inch"
+        },
+        {
+          "label": "Filter Stages",
+          "value": "Up to 3"
+        },
+        {
+          "label": "Mounting",
+          "value": "Clamp-on & 15 mm / 19 mm rods"
+        },
+        {
+          "label": "Max Lens Diameter",
+          "value": "114 mm clamp"
+        },
+        {
+          "label": "Weight",
+          "value": "1.1 kg"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2017
+    },
+    {
+      "slug": "smallrig-star-trail-carbon-matte-box",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "matte-box",
+      "name": {
+        "en": "SmallRig Star-Trail Carbon Matte Box",
+        "ar": "سمول ريغ ستار-تريل صندوق حجب ضوء كربوني",
+        "ckb": "سمۆڵ ڕیگ ستار-ترەیل ماتبۆکسی کاربۆن"
+      },
+      "description": {
+        "en": "A featherweight carbon-fibre matte box with quick-swap filter trays and adjustable French flags for run-and-gun cinematography. Clips on or mounts to rods, pairing equally well with mirrorless rigs and full cinema builds.",
+        "ar": "صندوق حجب ضوء من ألياف الكربون خفيف للغاية مع أدراج مرشّحات سريعة التبديل وحواجز فرنسية قابلة للتعديل للتصوير السريع. يثبَّت بالمشبك أو على القضبان، ويتلاءم بنفس الكفاءة مع التجهيزات بدون مرآة والتجهيزات السينمائية الكاملة.",
+        "ckb": "ماتبۆکسێکی زۆر سووکی فایبەری کاربۆن بە تڕەی فلتەری خێرا-گۆڕ و فلاگی فەرەنسی گۆڕاو بۆ سینەماتۆگرافی خێرا. بە کلیپ یان لەسەر ڕۆد دادەنرێت، بە یەکسانی لەگەڵ ڕیگی بێ ئاوێنە و ڕیگی تەواوی سینەما دەگونجێت."
+      },
+      "specs": [
+        {
+          "label": "Filter Size",
+          "value": "4 x 5.65 inch"
+        },
+        {
+          "label": "Filter Stages",
+          "value": "2 (1 rotating)"
+        },
+        {
+          "label": "Mounting",
+          "value": "Clamp-on 95 mm + 15 mm rods"
+        },
+        {
+          "label": "Material",
+          "value": "Carbon fibre"
+        },
+        {
+          "label": "Weight",
+          "value": "0.62 kg"
+        }
+      ],
+      "stock": 8,
+      "maxPerAccount": 3,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "smallrig-magic-fiz-wireless-follow-focus",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "follow-focus",
+      "name": {
+        "en": "SmallRig Magic-FIZ Wireless Follow Focus",
+        "ar": "سمول ريغ ماجيك-فيز نظام فولو فوكس لاسلكي",
+        "ckb": "سمۆڵ ڕیگ ماجیک-فیز فۆلۆ فۆکەسی بێ تەل"
+      },
+      "description": {
+        "en": "A three-channel wireless follow-focus system controlling focus, iris and zoom from a precision hand unit. Robust motors with hard-stop limits give camera assistants repeatable, tactile lens control across long shooting days.",
+        "ar": "نظام فولو فوكس لاسلكي بثلاث قنوات يتحكم في التركيز والحدقة والتكبير من وحدة يدوية دقيقة. توفّر المحرّكات القوية ذات حدود التوقف الصارمة لمساعدي الكاميرا تحكماً ملموساً وقابلاً للتكرار في العدسة على مدى أيام التصوير الطويلة.",
+        "ckb": "سیستەمی فۆلۆ فۆکەسی بێ تەل بە سێ کەناڵ کە فۆکەس و ئایریس و زووم کۆنترۆڵ دەکات لە یەکەیەکی دەستی ورد. مۆتۆری بەهێز بە سنووری وەستانی ڕەق کۆنترۆڵێکی دووبارەکراوەی هەستپێکراو دەداتە یاریدەدەری کامێرا بەدرێژایی ڕۆژانی شوتی درێژ."
+      },
+      "specs": [
+        {
+          "label": "Channels",
+          "value": "3 (focus / iris / zoom)"
+        },
+        {
+          "label": "Motor Torque",
+          "value": "0.6 N·m"
+        },
+        {
+          "label": "Wireless Range",
+          "value": "Up to 150 m"
+        },
+        {
+          "label": "Latency",
+          "value": "Under 2 ms"
+        },
+        {
+          "label": "Battery",
+          "value": "Internal Li-ion, ~7 hrs"
+        }
+      ],
+      "stock": 4,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "arri-hi-5-hand-unit",
+      "category": "accessories",
+      "brandSlug": "arri",
+      "subtype": "follow-focus",
+      "name": {
+        "en": "ARRI Hi-5 Wireless Hand Unit",
+        "ar": "آري Hi-5 وحدة يدوية لاسلكية",
+        "ckb": "ئاری Hi-5 یەکەی دەستی بێ تەل"
+      },
+      "description": {
+        "en": "A flagship wireless lens-control hand unit with a high-resolution OLED display and customizable knob feel. Built around the ARRI ecosystem, it delivers reliable long-range FIZ control for high-end cinema and commercial work.",
+        "ar": "وحدة يدوية رائدة للتحكم اللاسلكي في العدسة مع شاشة OLED عالية الدقة وإحساس مقبض قابل للتخصيص. مبنية حول منظومة آري، توفّر تحكماً موثوقاً بعيد المدى في التركيز والحدقة والتكبير للأعمال السينمائية والإعلانية الراقية.",
+        "ckb": "یەکەیەکی دەستی سەرەکی بۆ کۆنترۆڵی بێ تەلی لێنز بە شاشەی OLEDی ڕیزۆلوشن بەرز و هەستی دەسکی گونجاو. لەسەر بنەمای ئیکۆسیستەمی ئاری دروستکراوە، کۆنترۆڵی متمانەپێکراوی FIZی دوور پێشکەش دەکات بۆ کاری سینەما و ڕیکلامی بەرز."
+      },
+      "specs": [
+        {
+          "label": "Channels",
+          "value": "FIZ + lens data"
+        },
+        {
+          "label": "Display",
+          "value": "High-resolution OLED touchscreen"
+        },
+        {
+          "label": "Radio",
+          "value": "White Radio, license-free"
+        },
+        {
+          "label": "Range",
+          "value": "Up to 1500 m line of sight"
+        },
+        {
+          "label": "Runtime",
+          "value": "Up to 12 hours per battery"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 1,
+      "featured": true,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "teradek-bolt-6-lt-750",
+      "category": "accessories",
+      "brandSlug": "teradek",
+      "subtype": "wireless-video",
+      "name": {
+        "en": "Teradek Bolt 6 LT 750",
+        "ar": "تيراداك بولت 6 إل تي 750",
+        "ckb": "تێرادێک بۆڵت 6 LT 750"
+      },
+      "description": {
+        "en": "A zero-delay wireless video system streaming pristine 4K HDR from camera to monitors across the set. Bolt 6 uses the 6 GHz spectrum and intelligent channel-hopping for rock-solid links even in congested RF environments.",
+        "ar": "نظام فيديو لاسلكي بدون تأخير يبثّ 4K HDR نقياً من الكاميرا إلى الشاشات عبر موقع التصوير. يستخدم بولت 6 طيف 6 جيجاهرتز والقفز الذكي بين القنوات لروابط ثابتة تماماً حتى في البيئات اللاسلكية المزدحمة.",
+        "ckb": "سیستەمی ڤیدیۆی بێ تەلی بێ دواکەوتن کە 4K HDRی پاک لە کامێراوە بۆ مۆنیتەرەکان لەسەر سێت ستریم دەکات. بۆڵت 6 سپێکترۆمی 6 GHz و گۆڕینی کەناڵی زیرەک بەکاردەهێنێت بۆ بەستنەوەی پتەو تەنانەت لە ژینگەی RFی قەرەباڵغ."
+      },
+      "specs": [
+        {
+          "label": "Resolution",
+          "value": "4K HDR / 1080p"
+        },
+        {
+          "label": "Latency",
+          "value": "Less than 1 ms (zero delay)"
+        },
+        {
+          "label": "Range",
+          "value": "Up to 750 ft / 230 m"
+        },
+        {
+          "label": "Frequency",
+          "value": "6 GHz band"
+        },
+        {
+          "label": "Receivers",
+          "value": "Up to 4 per transmitter"
+        }
+      ],
+      "stock": 3,
+      "maxPerAccount": 2,
+      "featured": true,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "teradek-serv-4k-streaming-encoder",
+      "category": "accessories",
+      "brandSlug": "teradek",
+      "subtype": "wireless-video",
+      "name": {
+        "en": "Teradek Serv 4K Streaming Encoder",
+        "ar": "تيراداك سيرف 4K مُرمّز بث",
+        "ckb": "تێرادێک سێرڤ 4K ئینکۆدەری ستریم"
+      },
+      "description": {
+        "en": "A compact on-camera encoder that delivers crisp 4K video to phones, tablets and laptops over Wi-Fi or Ethernet. Ideal for directors, clients and VFX supervisors who need live monitoring from anywhere on set.",
+        "ar": "مُرمّز مدمج على الكاميرا يوصل فيديو 4K واضحاً إلى الهواتف والأجهزة اللوحية والحواسيب المحمولة عبر الواي فاي أو الإيثرنت. مثالي للمخرجين والعملاء ومشرفي المؤثرات البصرية الذين يحتاجون مراقبة حية من أي مكان في الموقع.",
+        "ckb": "ئینکۆدەرێکی بچووکی سەر کامێرا کە ڤیدیۆی 4Kی ڕوون دەگەیەنێتە مۆبایل و تابلێت و لاپتۆپ بە Wi-Fi یان ئیسەرنێت. باشترینە بۆ دەرهێنەر و کڕیار و سەرپەرشتیاری VFX کە پێویستیان بە چاودێری زیندووە لە هەر شوێنێکی سێت."
+      },
+      "specs": [
+        {
+          "label": "Resolution",
+          "value": "Up to 4K UHD"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi, Ethernet, USB"
+        },
+        {
+          "label": "Inputs",
+          "value": "12G-SDI, HDMI"
+        },
+        {
+          "label": "Simultaneous Clients",
+          "value": "Up to 10 devices"
+        },
+        {
+          "label": "Power",
+          "value": "L-series / Gold-mount via plate"
+        }
+      ],
+      "stock": 6,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "smallrig-vb99-v-mount-battery",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "battery",
+      "name": {
+        "en": "SmallRig VB99 SE V-Mount Battery",
+        "ar": "سمول ريغ VB99 SE بطارية في-ماونت",
+        "ckb": "سمۆڵ ڕیگ VB99 SE باتری V-ماونت"
+      },
+      "description": {
+        "en": "A 99 Wh V-mount battery with USB-C PD fast charging and a clear OLED readout of remaining capacity. Air-travel friendly and rated for high-draw cinema cameras, lights and monitors throughout a full shooting day.",
+        "ar": "بطارية في-ماونت بسعة 99 واط/ساعة مع شحن سريع USB-C PD وشاشة OLED واضحة تعرض السعة المتبقية. مناسبة للسفر الجوي ومصنّفة لكاميرات السينما والإضاءة والشاشات عالية الاستهلاك طوال يوم تصوير كامل.",
+        "ckb": "باترییەکی V-ماونتی 99 وات-کاتژمێر بە بارکردنی خێرای USB-C PD و شاشەی OLEDی ڕوون بۆ پیشاندانی توانای ماوە. گونجاوە بۆ گەشتی ئاسمانی و بۆ کامێرا و ڕووناکی و مۆنیتەری بەرز-وزە بۆ ماوەی ڕۆژێکی تەواوی شوت."
+      },
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "99 Wh / 6900 mAh"
+        },
+        {
+          "label": "Mount",
+          "value": "V-mount / V-lock"
+        },
+        {
+          "label": "Max Output",
+          "value": "12 A continuous"
+        },
+        {
+          "label": "Charging",
+          "value": "USB-C PD, full in ~2 hrs"
+        },
+        {
+          "label": "Display",
+          "value": "OLED capacity readout"
+        }
+      ],
+      "stock": 10,
+      "maxPerAccount": 4,
+      "featured": false,
+      "releaseYear": 2022
+    },
+    {
+      "slug": "sony-uwp-d21-wireless-mic",
+      "category": "accessories",
+      "brandSlug": "sony",
+      "subtype": "audio",
+      "name": {
+        "en": "Sony UWP-D21 Wireless Microphone System",
+        "ar": "سوني UWP-D21 نظام ميكروفون لاسلكي",
+        "ckb": "سۆنی UWP-D21 سیستەمی مایکی بێ تەل"
+      },
+      "description": {
+        "en": "A dependable UHF wireless lavalier kit with a bodypack transmitter and camera-mount receiver for clean location dialogue. Digital audio processing and a wide tuning range keep voices clear across busy production environments.",
+        "ar": "طقم ميكروفون لاسلكي UHF موثوق مع جهاز إرسال يُلبس على الجسم ومستقبل يُثبّت على الكاميرا لحوار نظيف في الموقع. تحافظ معالجة الصوت الرقمية ونطاق التوليف الواسع على وضوح الأصوات في بيئات الإنتاج المزدحمة.",
+        "ckb": "کیتی مایکی لاڤالیەری بێ تەلی UHFی متمانەپێکراو بە گواستەرەوەی لەش و وەرگری سەر کامێرا بۆ دیالۆگی پاکی لۆکەیشن. پرۆسێسکردنی دەنگی دیجیتاڵ و مەودای ئاکۆردی فراوان دەنگەکان ڕوون دەهێڵنەوە لە ژینگەی قەرەباڵغی بەرهەمهێنان."
+      },
+      "specs": [
+        {
+          "label": "Type",
+          "value": "UHF wireless lavalier system"
+        },
+        {
+          "label": "Frequency Range",
+          "value": "470 – 542 MHz"
+        },
+        {
+          "label": "Channels",
+          "value": "Up to 72 selectable"
+        },
+        {
+          "label": "Operating Range",
+          "value": "Up to 100 m"
+        },
+        {
+          "label": "Battery Life",
+          "value": "Approx. 8 hours (AA)"
+        }
+      ],
+      "stock": 7,
+      "maxPerAccount": 3,
+      "featured": false,
+      "releaseYear": 2018
+    },
+    {
+      "slug": "smallrig-forevala-w60-audio",
+      "category": "accessories",
+      "brandSlug": "smallrig",
+      "subtype": "audio",
+      "name": {
+        "en": "SmallRig Forevala W60 Wireless Lavalier",
+        "ar": "سمول ريغ فوريفالا W60 ميكروفون لاسلكي",
+        "ckb": "سمۆڵ ڕیگ فۆریڤالا W60 لاڤالیەری بێ تەل"
+      },
+      "description": {
+        "en": "A pocket-sized dual-channel wireless mic system with onboard recording backup and noise cancellation for run-and-gun shooters. Clips on instantly and pairs with cameras, phones and laptops for fast, clean sound capture.",
+        "ar": "نظام ميكروفون لاسلكي ثنائي القناة بحجم الجيب مع نسخة تسجيل احتياطية مدمجة وإلغاء ضوضاء للمصوّرين السريعين. يثبَّت فوراً ويتلاءم مع الكاميرات والهواتف والحواسيب المحمولة لالتقاط صوت سريع ونظيف.",
+        "ckb": "سیستەمی مایکی بێ تەلی دوو-کەناڵی بە قەبارەی گیرفان لەگەڵ تۆماری یەدەگی ناوەوە و سڕینەوەی دەنگ بۆ کامێرامانی خێرا. دەستبەجێ دادەنرێت و لەگەڵ کامێرا و مۆبایل و لاپتۆپ دەگونجێت بۆ تۆمارکردنی دەنگی خێرا و پاک."
+      },
+      "specs": [
+        {
+          "label": "Channels",
+          "value": "2 TX + 1 RX"
+        },
+        {
+          "label": "Range",
+          "value": "Up to 200 m line of sight"
+        },
+        {
+          "label": "Onboard Recording",
+          "value": "Up to 14 hours backup"
+        },
+        {
+          "label": "Battery Life",
+          "value": "Approx. 9 hours"
+        },
+        {
+          "label": "Outputs",
+          "value": "3.5 mm, USB-C, Lightning"
+        }
+      ],
+      "stock": 11,
+      "maxPerAccount": 4,
+      "featured": false,
+      "releaseYear": 2023
+    },
+    {
+      "slug": "sony-cfexpress-type-b-tough-512",
+      "category": "accessories",
+      "brandSlug": "sony",
+      "subtype": "media",
+      "name": {
+        "en": "Sony TOUGH CFexpress Type B 512GB",
+        "ar": "سوني تَف سي إف إكسبريس نوع B سعة 512 جيجابايت",
+        "ckb": "سۆنی TOUGH CFexpress جۆری B 512GB"
+      },
+      "description": {
+        "en": "A rugged CFexpress Type B card engineered for sustained 8K RAW and high-bitrate cinema recording without dropped frames. Its reinforced, dust- and water-resistant shell survives the harshest location shoots.",
+        "ar": "بطاقة CFexpress نوع B متينة مصمّمة للتسجيل المستمر بدقة 8K RAW ومعدّل بِت عالٍ دون فقدان إطارات. يصمد هيكلها المعزّز المقاوم للغبار والماء أمام أقسى مواقع التصوير.",
+        "ckb": "کارتێکی بەهێزی CFexpress جۆری B کە بۆ تۆمارکردنی بەردەوامی 8K RAW و بیترەیتی بەرز بەبێ لەدەستدانی فرەیم دروستکراوە. قاڵبی بەهێزکراوی بەربەرەکانێی تۆز و ئاوی لە قورسترین لۆکەیشنەکان دەمێنێتەوە."
+      },
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "512 GB"
+        },
+        {
+          "label": "Read Speed",
+          "value": "Up to 1700 MB/s"
+        },
+        {
+          "label": "Write Speed",
+          "value": "Up to 1480 MB/s"
+        },
+        {
+          "label": "Form Factor",
+          "value": "CFexpress Type B"
+        },
+        {
+          "label": "Durability",
+          "value": "Dust & water resistant, drop-proof"
+        }
+      ],
+      "stock": 9,
+      "maxPerAccount": 6,
+      "featured": false,
+      "releaseYear": 2021
+    },
+    {
+      "slug": "red-pro-cfexpress-660gb",
+      "category": "accessories",
+      "brandSlug": "red-digital-cinema",
+      "subtype": "media",
+      "name": {
+        "en": "RED PRO CFexpress 660GB",
+        "ar": "ريد برو سي إف إكسبريس 660 جيجابايت",
+        "ckb": "ڕێد پرۆ CFexpress 660GB"
+      },
+      "description": {
+        "en": "A high-capacity CFexpress card validated for RED cinema cameras shooting demanding REDCODE RAW formats. Sustained write performance keeps long takes safe at the highest resolutions and frame rates.",
+        "ar": "بطاقة CFexpress عالية السعة معتمدة لكاميرات ريد السينمائية أثناء تصوير صيغ REDCODE RAW الصعبة. يحافظ أداء الكتابة المستمر على سلامة اللقطات الطويلة بأعلى الدقات ومعدّلات الإطارات.",
+        "ckb": "کارتێکی CFexpressی توانا بەرز کە پشتڕاستکراوەتەوە بۆ کامێرای سینەمای ڕێد لەکاتی تۆمارکردنی فۆرماتی قورسی REDCODE RAW. کارایی نووسینی بەردەوام شاتە درێژەکان بە سەلامەتی دەهێڵێتەوە لە بەرزترین ڕیزۆلوشن و فرەیم ڕەیت."
+      },
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "660 GB"
+        },
+        {
+          "label": "Read Speed",
+          "value": "Up to 1680 MB/s"
+        },
+        {
+          "label": "Write Speed",
+          "value": "Up to 1400 MB/s"
+        },
+        {
+          "label": "Form Factor",
+          "value": "CFexpress Type B"
+        },
+        {
+          "label": "Compatibility",
+          "value": "RED V-RAPTOR & KOMODO-X"
+        }
+      ],
+      "stock": 1,
+      "maxPerAccount": 2,
+      "featured": false,
+      "releaseYear": 2022
+    }
+  ]
+}

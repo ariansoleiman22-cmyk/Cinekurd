@@ -1,0 +1,116 @@
+// Cine Kurd data model — Prisma 6 + SQLite (local). Swappable to Postgres later.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role          String         @default("user") // user | admin
+  sessions      Session[]
+  bookings      Booking[]
+  messages      Message[]      @relation("UserThread")
+  notifications Notification[] @relation("UserNotifications")
+  createdAt     DateTime       @default(now())
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+model Brand {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  name        String
+  country     String
+  foundedYear Int?
+  // Json fields hold the trilingual { en, ar, ckb } objects / arrays.
+  categories  Json // string[] e.g. ["camera","lens"]
+  description Json // { en, ar, ckb }
+  products    Product[]
+  createdAt   DateTime  @default(now())
+}
+
+model Product {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  category      String // camera | lens | light | accessories
+  subtype       String? // accessories sub-type: stand | gimbal | monitor | ...
+  imageUrl      String? // admin-uploaded photo (under /uploads); falls back to a placeholder
+  brand         Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  brandId       String
+  bookings      Booking[]
+  name          Json // { en, ar, ckb }
+  description   Json // { en, ar, ckb }
+  specs         Json // [{ label, value }]
+  stock         Int      @default(0)
+  maxPerAccount Int      @default(1)
+  featured      Boolean  @default(false)
+  releaseYear   Int?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([category])
+  @@index([subtype])
+  @@index([brandId])
+}
+
+// A message in a customer's conversation thread with the admin.
+model Message {
+  id           String   @id @default(cuid())
+  threadUser   User     @relation("UserThread", fields: [threadUserId], references: [id], onDelete: Cascade)
+  threadUserId String
+  senderRole   String // 'user' | 'admin'
+  body         String
+  read         Boolean  @default(false) // read by the recipient
+  createdAt    DateTime @default(now())
+
+  @@index([threadUserId])
+}
+
+// Localized at render time from `type` + `data`; never store language-specific text.
+model Notification {
+  id        String   @id @default(cuid())
+  user      User     @relation("UserNotifications", fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  type      String // booking_received | booking_new | message_user | message_admin | booking_status
+  data      Json?
+  href      String?
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+model Booking {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId String
+  quantity  Int      @default(1)
+  status    String   @default("pending") // pending | confirmed | cancelled | completed
+  note      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+  @@index([productId])
+  @@index([status])
+}
