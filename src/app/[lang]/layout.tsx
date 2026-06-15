@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LiveProvider } from "@/components/LiveProvider";
 import { IntroSplash } from "@/components/IntroSplash";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getDictionary } from "@/i18n/dictionaries";
 import { getCurrentUser } from "@/lib/auth";
 import {
@@ -134,6 +135,7 @@ export default async function RootLayout({
           </main>
           <Footer lang={lang} dict={dict} />
         </LiveProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
