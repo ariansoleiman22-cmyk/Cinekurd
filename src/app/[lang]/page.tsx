@@ -32,7 +32,10 @@ export default async function HomePage({
   if (!isLocale(lang)) notFound();
   const dict = await getDictionary(lang);
 
-  const featured = await getFeaturedProducts(6);
+  const [featured, showcase] = await Promise.all([
+    getFeaturedProducts(6),
+    getCategoryShowcase(4),
+  ]);
   const slides = featured.map((p) => ({
     slug: p.slug,
     category: p.category,
@@ -44,7 +47,6 @@ export default async function HomePage({
     stock: p.stock,
     status: stockStatus(p.stock),
   }));
-  const showcase = await getCategoryShowcase(4);
 
   return (
     <>

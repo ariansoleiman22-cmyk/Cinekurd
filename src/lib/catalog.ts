@@ -1,3 +1,4 @@
+import { unstable_cache } from "next/cache";
 import { prisma } from "./db";
 import type { Locale } from "@/i18n/config";
 import { CATEGORIES, ACCESSORY_SUBTYPES, isCategory } from "./constants";
@@ -33,6 +34,11 @@ export type ProductView = {
   featured: boolean;
   releaseYear: number | null;
 };
+
+// Catalogue queries are cached in Next's Data Cache under this tag and invalidated
+// whenever the catalogue/stock changes (see revalidateTag(CATALOG_TAG) in actions).
+export const CATALOG_TAG = "catalog";
+const CATALOG_TTL = 300; // seconds (fallback refresh)
 
 // ---------- Locale + stock helpers ----------
 
@@ -92,25 +98,39 @@ const productOrder = [
   { createdAt: "asc" as const },
 ];
 
-// ---------- Queries ----------
+const cacheOpts = { tags: [CATALOG_TAG], revalidate: CATALOG_TTL };
+
+// ---------- Cached queries ----------
 
 export async function getProductsByCategory(
   category: Category,
 ): Promise<ProductView[]> {
-  const rows = await prisma.product.findMany({
-    where: { category },
-    include: productInclude,
-    orderBy: productOrder,
-  });
-  return rows.map(toProduct);
+  return unstable_cache(
+    async () => {
+      const rows = await prisma.product.findMany({
+        where: { category },
+        include: productInclude,
+        orderBy: productOrder,
+      });
+      return rows.map(toProduct);
+    },
+    ["products-by-category", category],
+    cacheOpts,
+  )();
 }
 
 export async function getProduct(slug: string): Promise<ProductView | null> {
-  const row = await prisma.product.findUnique({
-    where: { slug },
-    include: productInclude,
-  });
-  return row ? toProduct(row) : null;
+  return unstable_cache(
+    async () => {
+      const row = await prisma.product.findUnique({
+        where: { slug },
+        include: productInclude,
+      });
+      return row ? toProduct(row) : null;
+    },
+    ["product", slug],
+    cacheOpts,
+  )();
 }
 
 export async function getRelatedProducts(
@@ -118,93 +138,111 @@ export async function getRelatedProducts(
   excludeSlug: string,
   limit = 4,
 ): Promise<ProductView[]> {
-  const rows = await prisma.product.findMany({
-    where: { category, slug: { not: excludeSlug } },
-    include: productInclude,
-    orderBy: productOrder,
-    take: limit,
-  });
-  return rows.map(toProduct);
+  return unstable_cache(
+    async () => {
+      const rows = await prisma.product.findMany({
+        where: { category, slug: { not: excludeSlug } },
+        include: productInclude,
+        orderBy: productOrder,
+        take: limit,
+      });
+      return rows.map(toProduct);
+    },
+    ["related", category, excludeSlug, String(limit)],
+    cacheOpts,
+  )();
 }
 
 export async function getFeaturedProducts(limit = 8): Promise<ProductView[]> {
-  const rows = await prisma.product.findMany({
-    where: { featured: true },
-    include: productInclude,
-    orderBy: productOrder,
-    take: limit,
-  });
-  return rows.map(toProduct);
+  return unstable_cache(
+    async () => {
+      const rows = await prisma.product.findMany({
+        where: { featured: true },
+        include: productInclude,
+        orderBy: productOrder,
+        take: limit,
+      });
+      return rows.map(toProduct);
+    },
+    ["featured", String(limit)],
+    cacheOpts,
+  )();
 }
 
-// A few products per category, for the home-page showcase rows.
 export async function getCategoryShowcase(
   perCategory = 4,
 ): Promise<{ category: Category; products: ProductView[] }[]> {
-  const groups = await Promise.all(
-    CATEGORIES.map(async (category) => {
-      const rows = await prisma.product.findMany({
-        where: { category },
-        include: productInclude,
-        orderBy: productOrder,
-        take: perCategory,
-      });
-      return { category, products: rows.map(toProduct) };
-    }),
-  );
-  return groups.filter((g) => g.products.length > 0);
+  return unstable_cache(
+    async () => {
+      const groups = await Promise.all(
+        CATEGORIES.map(async (category) => {
+          const rows = await prisma.product.findMany({
+            where: { category },
+            include: productInclude,
+            orderBy: productOrder,
+            take: perCategory,
+          });
+          return { category, products: rows.map(toProduct) };
+        }),
+      );
+      return groups.filter((g) => g.products.length > 0);
+    },
+    ["showcase", String(perCategory)],
+    cacheOpts,
+  )();
 }
 
 export async function getBrands(): Promise<BrandView[]> {
-  const rows = await prisma.brand.findMany({
-    orderBy: { name: "asc" },
-    include: { _count: { select: { products: true } } },
-  });
-  return rows.map((row) => ({
-    id: row.id,
-    slug: row.slug,
-    name: row.name,
-    country: row.country,
-    foundedYear: row.foundedYear,
-    categories: (row.categories as Category[]) ?? [],
-    description: row.description as Trilingual,
-    productCount: row._count.products,
-  }));
+  return unstable_cache(
+    async () => {
+      const rows = await prisma.brand.findMany({
+        orderBy: { name: "asc" },
+        include: { _count: { select: { products: true } } },
+      });
+      return rows.map((row) => ({
+        id: row.id,
+        slug: row.slug,
+        name: row.name,
+        country: row.country,
+        foundedYear: row.foundedYear,
+        categories: (row.categories as Category[]) ?? [],
+        description: row.description as Trilingual,
+        productCount: row._count.products,
+      }));
+    },
+    ["brands"],
+    cacheOpts,
+  )();
 }
 
 export async function getBrandWithProducts(
   slug: string,
 ): Promise<{ brand: BrandView; products: ProductView[] } | null> {
-  const row = await prisma.brand.findUnique({
-    where: { slug },
-    include: {
-      _count: { select: { products: true } },
-      products: { include: productInclude, orderBy: productOrder },
+  return unstable_cache(
+    async () => {
+      const row = await prisma.brand.findUnique({
+        where: { slug },
+        include: {
+          _count: { select: { products: true } },
+          products: { include: productInclude, orderBy: productOrder },
+        },
+      });
+      if (!row) return null;
+      return {
+        brand: {
+          id: row.id,
+          slug: row.slug,
+          name: row.name,
+          country: row.country,
+          foundedYear: row.foundedYear,
+          categories: (row.categories as Category[]) ?? [],
+          description: row.description as Trilingual,
+          productCount: row._count.products,
+        },
+        products: row.products.map(toProduct),
+      };
     },
-  });
-  if (!row) return null;
-  return {
-    brand: {
-      id: row.id,
-      slug: row.slug,
-      name: row.name,
-      country: row.country,
-      foundedYear: row.foundedYear,
-      categories: (row.categories as Category[]) ?? [],
-      description: row.description as Trilingual,
-      productCount: row._count.products,
-    },
-    products: row.products.map(toProduct),
-  };
-}
-
-export async function getCatalogCounts(): Promise<{
-  products: number;
-  brands: number;
-}> {
-  const [products, brands] = await Promise.all([
-    prisma.product.count(),
-    prisma.brand.count(),
-  ]);
-  return { products, brands };
+    ["brand-with-products", slug],
+    cacheOpts,
+  )();
 }

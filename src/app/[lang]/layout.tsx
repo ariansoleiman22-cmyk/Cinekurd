@@ -32,6 +32,10 @@ const vazir = Vazirmatn({
   display: "swap",
 });
 
+// Run server functions in Tokyo (hnd1) — next to the Supabase database (ap-northeast-1)
+// so database round-trips are fast instead of crossing continents.
+export const preferredRegion = "hnd1";
+
 export async function generateMetadata({
   params,
 }: {

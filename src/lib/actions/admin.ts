@@ -1,6 +1,6 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth";
@@ -8,7 +8,13 @@ import { requireAdmin } from "@/lib/admin";
 import { saveImage } from "@/lib/upload";
 import { createNotification, sendAdminMessage, getThreadMessagesSince } from "@/lib/messaging";
 import { adminSetBookingStatus } from "@/lib/bookings";
-import { isCategory, pick, type Trilingual, type Spec } from "@/lib/catalog";
+import {
+  isCategory,
+  pick,
+  CATALOG_TAG,
+  type Trilingual,
+  type Spec,
+} from "@/lib/catalog";
 import { Prisma } from "@prisma/client";
 import { isLocale, defaultLocale, type Locale } from "@/i18n/config";
 
@@ -121,6 +127,7 @@ export async function createProduct(
     return { error: "generic" };
   }
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/products`);
   redirect(`/${lang}/admin/products`);
 }
@@ -187,6 +194,7 @@ export async function updateProduct(
     return { error: "generic" };
   }
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/products`);
   redirect(`/${lang}/admin/products`);
 }
@@ -196,6 +204,7 @@ export async function deleteProduct(fd: FormData): Promise<void> {
   await requireAdmin(lang);
   const id = String(fd.get("id") ?? "");
   if (id) await prisma.product.delete({ where: { id } }).catch(() => {});
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/products`);
   redirect(`/${lang}/admin/products`);
 }
@@ -244,6 +253,7 @@ export async function createBrand(
     return { error: "generic" };
   }
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/brands`);
   redirect(`/${lang}/admin/brands`);
 }
@@ -293,6 +303,7 @@ export async function updateBrand(
     return { error: "generic" };
   }
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/brands`);
   redirect(`/${lang}/admin/brands`);
 }
@@ -302,6 +313,7 @@ export async function deleteBrand(fd: FormData): Promise<void> {
   await requireAdmin(lang);
   const id = String(fd.get("id") ?? "");
   if (id) await prisma.brand.delete({ where: { id } }).catch(() => {});
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/brands`);
   redirect(`/${lang}/admin/brands`);
 }
@@ -326,6 +338,7 @@ export async function setBookingStatusAction(fd: FormData): Promise<void> {
       });
     }
   }
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/admin/bookings`);
   redirect(`/${lang}/admin/bookings`);
 }

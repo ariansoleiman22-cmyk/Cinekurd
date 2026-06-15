@@ -1,11 +1,11 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth";
 import { reserveProduct, releaseBooking } from "@/lib/bookings";
 import { prisma } from "@/lib/db";
-import { pick, type Trilingual } from "@/lib/catalog";
+import { pick, CATALOG_TAG, type Trilingual } from "@/lib/catalog";
 import { createNotification } from "@/lib/messaging";
 import { isLocale, defaultLocale, type Locale } from "@/i18n/config";
 
@@ -57,6 +57,7 @@ export async function createBooking(
     });
   }
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/product/${slug}`);
   revalidatePath(`/${lang}/account`);
   return { ok: true };
@@ -71,6 +72,7 @@ export async function cancelBooking(formData: FormData): Promise<void> {
 
   await releaseBooking(user!.id, bookingId);
 
+  revalidateTag(CATALOG_TAG, "max");
   revalidatePath(`/${lang}/account`);
   redirect(`/${lang}/account`);
 }
