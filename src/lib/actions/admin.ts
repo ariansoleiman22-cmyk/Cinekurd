@@ -4,7 +4,7 @@ import { revalidatePath, revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { getCurrentUser } from "@/lib/auth";
-import { requireAdmin } from "@/lib/admin";
+import { requireAdmin, getDefaultBrandId } from "@/lib/admin";
 import { saveImage } from "@/lib/upload";
 import { createNotification, sendAdminMessage, getThreadMessagesSince } from "@/lib/messaging";
 import { adminSetBookingStatus } from "@/lib/bookings";
@@ -74,13 +74,11 @@ export async function createProduct(
 
   const slug = String(fd.get("slug") ?? "").trim().toLowerCase();
   const category = String(fd.get("category") ?? "");
-  const brandId = String(fd.get("brandId") ?? "");
   const name = tri(fd, "name");
   const description = tri(fd, "description");
 
   if (!SLUG_RE.test(slug)) return { error: "slug" };
   if (!isCategory(category)) return { error: "category" };
-  if (!brandId) return { error: "brand" };
   if (!name.en) return { error: "name" };
 
   const subtypeRaw = String(fd.get("subtype") ?? "").trim();
@@ -99,6 +97,9 @@ export async function createProduct(
 
   const image = await resolveImage(fd, null);
   if ("error" in image) return { error: image.error };
+
+  // Brands are hidden from the UI; every product is linked to one internal brand.
+  const brandId = await getDefaultBrandId();
 
   try {
     await prisma.product.create({
@@ -143,12 +144,10 @@ export async function updateProduct(
 
   const slug = String(fd.get("slug") ?? "").trim().toLowerCase();
   const category = String(fd.get("category") ?? "");
-  const brandId = String(fd.get("brandId") ?? "");
   const name = tri(fd, "name");
   const description = tri(fd, "description");
   if (!SLUG_RE.test(slug)) return { error: "slug" };
   if (!isCategory(category)) return { error: "category" };
-  if (!brandId) return { error: "brand" };
   if (!name.en) return { error: "name" };
 
   const subtypeRaw = String(fd.get("subtype") ?? "").trim();
@@ -177,7 +176,6 @@ export async function updateProduct(
         category,
         subtype,
         imageUrl: image.url,
-        brandId,
         name: name as unknown as Prisma.InputJsonValue,
         description: description as unknown as Prisma.InputJsonValue,
         specs: specs as unknown as Prisma.InputJsonValue,

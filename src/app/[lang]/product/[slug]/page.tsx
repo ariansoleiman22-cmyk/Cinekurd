@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale } from "@/i18n/config";
@@ -70,7 +69,6 @@ export default async function Page({
         <div className="mt-8 grid gap-10 lg:grid-cols-2">
           <ProductMedia
             category={product.category}
-            watermark={product.brand.name}
             imageUrl={product.imageUrl}
             alt={pick(product.name, lang)}
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -78,12 +76,9 @@ export default async function Page({
           />
 
           <div>
-            <Link
-              href={`/${lang}/brands/${product.brand.slug}`}
-              className="text-sm uppercase tracking-wider text-gold/80 transition-colors hover:text-gold"
-            >
-              {product.brand.name}
-            </Link>
+            <span className="text-sm uppercase tracking-wider text-gold/80">
+              {categoryTitle}
+            </span>
             <h1 className="mt-2 font-display text-4xl text-cream sm:text-5xl">
               {pick(product.name, lang)}
             </h1>

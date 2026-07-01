@@ -30,12 +30,10 @@ const label = "mb-1.5 block text-sm text-cream/80";
 export function ProductForm({
   lang,
   dict,
-  brands,
   product,
 }: {
   lang: Locale;
   dict: Dictionary;
-  brands: { id: string; name: string }[];
   product?: EditProduct;
 }) {
   const isEdit = Boolean(product);
@@ -113,23 +111,6 @@ export function ProductForm({
             placeholder="arri-alexa-35"
             className={input}
           />
-        </div>
-        <div>
-          <label className={label}>{t.brand}</label>
-          <select
-            name="brandId"
-            defaultValue={product?.brandId ?? ""}
-            className={input}
-          >
-            <option value="" disabled>
-              —
-            </option>
-            {brands.map((b) => (
-              <option key={b.id} value={b.id}>
-                {b.name}
-              </option>
-            ))}
-          </select>
         </div>
         <div>
           <label className={label}>{t.category}</label>

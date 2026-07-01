@@ -32,7 +32,6 @@ export function ProductCard({
     >
       <ProductMedia
         category={product.category}
-        watermark={product.brand.name}
         imageUrl={product.imageUrl}
         alt={pick(product.name, lang)}
         zoom
@@ -40,14 +39,11 @@ export function ProductCard({
         className="aspect-[4/3] w-full"
       />
       <div className="flex flex-1 flex-col p-5">
-        <div className="flex items-center justify-between gap-2">
-          <span className="truncate text-xs uppercase tracking-wider text-gold/80">
-            {product.brand.name}
+        {subtypeLabel && (
+          <span className="text-xs uppercase tracking-wider text-gold/80">
+            {subtypeLabel}
           </span>
-          {subtypeLabel && (
-            <span className="shrink-0 text-xs text-muted">{subtypeLabel}</span>
-          )}
-        </div>
+        )}
         <h3 className="mt-2 line-clamp-1 font-display text-xl text-cream">
           {pick(product.name, lang)}
         </h3>

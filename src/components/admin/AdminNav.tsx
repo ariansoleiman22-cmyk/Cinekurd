@@ -6,7 +6,7 @@ import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import { cn } from "@/lib/utils";
 
-const KEYS = ["dashboard", "products", "brands", "bookings", "messages"] as const;
+const KEYS = ["dashboard", "products", "bookings", "messages"] as const;
 
 export function AdminNav({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const pathname = usePathname();

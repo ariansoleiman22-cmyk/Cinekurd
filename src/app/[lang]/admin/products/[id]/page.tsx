@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale } from "@/i18n/config";
-import { requireAdmin, getBrandOptions, getProductForEdit } from "@/lib/admin";
+import { requireAdmin, getProductForEdit } from "@/lib/admin";
 import { deleteProduct } from "@/lib/actions/admin";
 import { ProductForm } from "@/components/admin/ProductForm";
 import { DeleteButton } from "@/components/admin/DeleteButton";
@@ -19,7 +19,6 @@ export default async function Page({
   const dict = await getDictionary(lang);
   const product = await getProductForEdit(id);
   if (!product) notFound();
-  const brands = await getBrandOptions();
 
   return (
     <div>
@@ -35,7 +34,7 @@ export default async function Page({
           className="rounded-full border border-white/10 px-4 py-2 text-sm text-rose-300 transition-colors hover:border-rose-500/50"
         />
       </div>
-      <ProductForm lang={lang} dict={dict} brands={brands} product={product} />
+      <ProductForm lang={lang} dict={dict} product={product} />
     </div>
   );
 }

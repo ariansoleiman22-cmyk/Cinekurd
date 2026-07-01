@@ -42,7 +42,6 @@ export default async function Page({
               <tr className="border-b border-white/10 text-muted-dark">
                 <th className="px-4 py-3 text-start font-normal">{t.nameEn}</th>
                 <th className="px-4 py-3 text-start font-normal">{t.category}</th>
-                <th className="px-4 py-3 text-start font-normal">{t.brand}</th>
                 <th className="px-4 py-3 text-start font-normal">{t.stock}</th>
                 <th className="px-4 py-3 text-start font-normal">{t.maxPerAccount}</th>
                 <th className="px-4 py-3" />
@@ -65,7 +64,6 @@ export default async function Page({
                       p.category as keyof typeof dict.categoryPages
                     ]?.title ?? p.category}
                   </td>
-                  <td className="px-4 py-3 text-muted">{p.brandName}</td>
                   <td className="px-4 py-3 text-muted">{p.stock}</td>
                   <td className="px-4 py-3 text-muted">{p.maxPerAccount}</td>
                   <td className="px-4 py-3 text-end">

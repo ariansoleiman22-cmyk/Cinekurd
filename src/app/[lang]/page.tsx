@@ -12,7 +12,7 @@ import { SpotlightCarousel } from "@/components/SpotlightCarousel";
 import { CategoryShowcase } from "@/components/CategoryShowcase";
 import { categoryIcons, ArrowRight, Bolt, Shield, Chat } from "@/components/icons";
 
-const CATEGORY_KEYS = ["camera", "lens", "light", "accessories", "brands"] as const;
+const CATEGORY_KEYS = ["camera", "lens", "light", "accessories"] as const;
 
 const FEATURE_ICONS = {
   stock: Bolt,
@@ -40,7 +40,6 @@ export default async function HomePage({
     slug: p.slug,
     category: p.category,
     imageUrl: p.imageUrl,
-    brand: p.brand.name,
     name: pick(p.name, lang),
     description: pick(p.description, lang),
     specs: p.specs.slice(0, 3),
@@ -85,7 +84,7 @@ export default async function HomePage({
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
             </Link>
             <Link
-              href={`/${lang}/brands`}
+              href={`/${lang}#categories`}
               className="inline-flex items-center justify-center rounded-full border border-white/15 px-8 py-3.5 text-sm font-medium text-cream/90 transition-colors hover:border-gold/50 hover:text-cream"
             >
               {dict.hero.ctaSecondary}
@@ -103,7 +102,10 @@ export default async function HomePage({
       )}
 
       {/* ---------------- Categories ---------------- */}
-      <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8 sm:py-28">
+      <section
+        id="categories"
+        className="mx-auto max-w-7xl scroll-mt-24 px-5 py-20 sm:px-8 sm:py-28"
+      >
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-3xl text-cream sm:text-4xl">
             {dict.categories.heading}

@@ -15,7 +15,6 @@ export type SpotlightSlide = {
   slug: string;
   category: Category;
   imageUrl: string | null;
-  brand: string;
   name: string;
   description: string;
   specs: { label: string; value: string }[];
@@ -101,7 +100,6 @@ export function SpotlightCarousel({
             <ProductMedia
               category={s.category}
               imageUrl={s.imageUrl}
-              watermark={s.brand}
               alt={s.name}
               zoom
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -116,7 +114,7 @@ export function SpotlightCarousel({
           <div>
             <div className="flex items-center gap-3 text-xs uppercase tracking-[0.28em] text-gold/90">
               <span className="h-px w-8 bg-gold/50" />
-              {s.brand}
+              {dict.categoryPages[s.category].title}
             </div>
             <h2 className="text-gold-gradient mt-5 font-display text-4xl leading-tight sm:text-5xl">
               {s.name}

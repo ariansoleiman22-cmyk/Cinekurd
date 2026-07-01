@@ -3,7 +3,7 @@ import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import { Logo } from "./Logo";
 
-const CATEGORY_KEYS = ["camera", "lens", "light", "accessories", "brands"] as const;
+const CATEGORY_KEYS = ["camera", "lens", "light", "accessories"] as const;
 
 export function Footer({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const year = new Date().getFullYear();

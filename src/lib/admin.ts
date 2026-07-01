@@ -1,5 +1,6 @@
 import "server-only";
 import { redirect } from "next/navigation";
+import { Prisma } from "@prisma/client";
 import { getCurrentUser, type SessionUser } from "./auth";
 import { prisma } from "./db";
 import type { Trilingual, Spec } from "./catalog";
@@ -197,6 +198,28 @@ export async function getBrandOptions(): Promise<{ id: string; name: string }[]>
     orderBy: { name: "asc" },
     select: { id: true, name: true },
   });
+}
+
+// Brands are hidden from the UI, but Product.brandId is still required in the DB.
+// Every product is linked to one internal brand so nothing brand-related is shown
+// and no database migration is needed. Reuses an existing brand if there is one.
+export async function getDefaultBrandId(): Promise<string> {
+  const existing = await prisma.brand.findFirst({
+    orderBy: { createdAt: "asc" },
+    select: { id: true },
+  });
+  if (existing) return existing.id;
+  const created = await prisma.brand.create({
+    data: {
+      slug: "cine-kurd",
+      name: "Cine Kurd",
+      country: "",
+      categories: [] as unknown as Prisma.InputJsonValue,
+      description: { en: "", ar: "", ckb: "" } as unknown as Prisma.InputJsonValue,
+    },
+    select: { id: true },
+  });
+  return created.id;
 }
 
 // ---------------- Admin message threads ----------------

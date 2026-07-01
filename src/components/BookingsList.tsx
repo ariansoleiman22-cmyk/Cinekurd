@@ -64,7 +64,6 @@ export function BookingsList({
                 {pick(b.product.name, lang)}
               </Link>
               <p className="mt-0.5 text-xs text-muted">
-                {b.product.brand} ·{" "}
                 {interpolate(dict.booking.qty, { count: b.quantity })} · {date}
               </p>
             </div>

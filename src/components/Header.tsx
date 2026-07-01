@@ -10,7 +10,7 @@ import { SignOutButton } from "./SignOutButton";
 import { NotificationBell } from "./NotificationBell";
 import { Menu, Close, Chat } from "./icons";
 
-const CATEGORY_KEYS = ["camera", "lens", "light", "accessories", "brands"] as const;
+const CATEGORY_KEYS = ["camera", "lens", "light", "accessories"] as const;
 
 export type HeaderUser = { name: string; role: string } | null;
 

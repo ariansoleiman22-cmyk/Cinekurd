@@ -49,7 +49,6 @@ export default async function Page({
     <div className="space-y-10">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Stat label={d.products} value={stats.products} />
-        <Stat label={d.brands} value={stats.brands} />
         <Stat label={d.users} value={stats.users} />
         <Stat label={d.pending} value={stats.pending} accent />
         <Stat label={d.confirmed} value={stats.confirmed} />
