@@ -44,13 +44,10 @@ export function ProductCard({
             {subtypeLabel}
           </span>
         )}
-        <h3 className="mt-2 line-clamp-1 font-display text-xl text-cream">
+        <h3 className="mt-2 line-clamp-2 font-display text-xl text-cream">
           {pick(product.name, lang)}
         </h3>
-        <p className="mt-1.5 line-clamp-2 flex-1 text-sm leading-relaxed text-muted">
-          {pick(product.description, lang)}
-        </p>
-        <div className="mt-4 flex items-center justify-between border-t border-white/5 pt-4">
+        <div className="mt-auto flex items-center justify-between border-t border-white/5 pt-4">
           <StockBadge status={status} dict={dict} />
           <span className="inline-flex items-center gap-1 text-sm text-gold/70 transition-colors group-hover:text-gold">
             {dict.catalog.viewDetails}

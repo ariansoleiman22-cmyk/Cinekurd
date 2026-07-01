@@ -13,9 +13,7 @@ type EditProduct = {
   category: string;
   subtype: string | null;
   imageUrl: string | null;
-  brandId: string;
   name: Trilingual;
-  description: Trilingual;
   specs: Spec[];
   stock: number;
   maxPerAccount: number;
@@ -157,21 +155,6 @@ export function ProductForm({
         <div>
           <label className={label}>{t.nameCkb}</label>
           <input name="name_ckb" dir="rtl" defaultValue={product?.name.ckb} className={input} />
-        </div>
-      </div>
-
-      <div className="grid gap-4 sm:grid-cols-3">
-        <div>
-          <label className={label}>{t.descEn}</label>
-          <textarea name="description_en" rows={3} defaultValue={product?.description.en} className={input} />
-        </div>
-        <div>
-          <label className={label}>{t.descAr}</label>
-          <textarea name="description_ar" rows={3} dir="rtl" defaultValue={product?.description.ar} className={input} />
-        </div>
-        <div>
-          <label className={label}>{t.descCkb}</label>
-          <textarea name="description_ckb" rows={3} dir="rtl" defaultValue={product?.description.ckb} className={input} />
         </div>
       </div>
 

@@ -41,7 +41,6 @@ export default async function HomePage({
     category: p.category,
     imageUrl: p.imageUrl,
     name: pick(p.name, lang),
-    description: pick(p.description, lang),
     specs: p.specs.slice(0, 3),
     stock: p.stock,
     status: stockStatus(p.stock),

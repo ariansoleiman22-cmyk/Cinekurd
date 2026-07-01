@@ -97,10 +97,6 @@ export default async function Page({
               )}
             </div>
 
-            <p className="mt-6 leading-relaxed text-muted">
-              {pick(product.description, lang)}
-            </p>
-
             {/* Booking */}
             <div className="mt-8 rounded-2xl border border-white/8 bg-surface/40 p-5">
               <p className="mb-4 text-sm text-cream">

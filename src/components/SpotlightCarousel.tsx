@@ -16,7 +16,6 @@ export type SpotlightSlide = {
   category: Category;
   imageUrl: string | null;
   name: string;
-  description: string;
   specs: { label: string; value: string }[];
   stock: number;
   status: StockStatus;
@@ -119,9 +118,6 @@ export function SpotlightCarousel({
             <h2 className="text-gold-gradient mt-5 font-display text-4xl leading-tight sm:text-5xl">
               {s.name}
             </h2>
-            <p className="mt-5 line-clamp-3 max-w-xl leading-relaxed text-muted">
-              {s.description}
-            </p>
 
             {s.specs.length > 0 && (
               <dl className="mt-7 flex flex-wrap gap-x-10 gap-y-4">
